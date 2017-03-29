@@ -26,6 +26,10 @@ and all other assets are in their coressponding directories. Enjoy!
 - Ship it!
 - Documentation is located at (link: http://github.com/ezekielaquino/KirbySeed3000 text: Github)-
 
+# Important!
+If you're going to use the panel please use the unproxied address! http://localhost:8080/panel!
+Otherwise it will NOT work (will throw errors)
+
 
 ----
 

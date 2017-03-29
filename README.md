@@ -53,7 +53,7 @@ A) Install yarn (https://yarnpkg.com/lang/en/) `npm install -g yarn`
 
 NOTE:
 
-- to go to panel go to `/panel`
+- to go to panel go to `localhost:8080/panel`. DO NOT use the proxied url! it will result in errors!
 - to enable installation to work initially, `panel.install` is set to true in `site/config/config.php`
 - DELETE the lines indicated in the comment in `config.php` after you've created your account
 
