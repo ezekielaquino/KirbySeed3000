@@ -1,0 +1,19 @@
+Title: KirbySeed3000
+
+----
+
+Author: Ezekiel Aquino
+
+----
+
+Description: This is a Starter kit for Kirby with SEED3000.
+
+----
+
+Footer:
+
+KirbySeed3000 is brought to you by (link: http://twitter.com/the_ezekiel text: Ezekiel Aquino)
+
+----
+
+Copyright: © 2017–(date: Year) (link: http://github.com/ezekielaquino/KirbySeed3000 text: Ezekiel Aquino on Github)

@@ -1,0 +1,43 @@
+{
+  "name": "seed3000",
+  "version": "1.0.0",
+  "description": "A super simple starter kit for starting... something",
+  "main": "index.js",
+  "repository": "git@github.com:ezekielaquino/Seed3000.git",
+  "author": "Ezekiel Aquino <ezekielaquino@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-connect-php": "^0.0.8"
+  },
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.13.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-stylus": "^2.6.0",
+    "gulp-twig": "^0.7.0",
+    "gulp-util": "^3.0.8",
+    "rupture": "^0.6.2",
+    "stylus": "^0.54.5",
+    "webpack": "^2.2.1",
+    "yargs": "^6.6.0"
+  },
+  "scripts": {
+    "webpack": "webpack --watch",
+    "webpack:prod": "webpack --optimize-minimize",
+    "gulp": "gulp dev --dev",
+    "gulp:prod": "gulp prod --prod",
+    "browsersync": "browser-sync start --port 3007 --proxy 127.0.0.1:8080 --files '**/*.css' '**/*.js' '**/*.php'",
+    "dev": "npm run webpack & npm run gulp & npm run browsersync",
+    "prod": "npm run webpack:prod & npm run gulp:prod"
+  }
+}

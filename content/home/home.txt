@@ -1,0 +1,46 @@
+Title: Home
+
+----
+
+Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+Also, you are running on KIRBYSEED3000, a port of SEED3000 for building STUFF
+with the help of our friend Kirby. If you need further details or documentation,
+please refer to the Github page below.
+
+(link: http://github.com/ezekielaquino/KirbySeed3000 text: CLICK HERE! KIRBYSEED3000 CLICK HERE!)
+
+----
+
+Quickie:
+
+## Quickie
+
+All the files you need to edit and compile to create a site is
+located in /source. Site templates and snippets are in the folder "site"
+and all other assets are in their coressponding directories. Enjoy!
+
+- I suggest dragging 'source' into your favorite editor, and try editing a template or /source/stylus/base.styl
+- See the browser live reload!
+- Build your site
+- Ship it!
+- Documentation is located at (link: http://github.com/ezekielaquino/KirbySeed3000 text: Github)-
+
+### Important!
+
+Now you're reading this, this is served to you via BrowserSync/proxy. To go to the panel,
+please use the unproxied address which is (link: http://localhost:8080/panel text: localhost:8080/panel)
+
+----
+
+Text: 
+
+## Get started
+
+- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
+
+**Have fun with Kirby!**
