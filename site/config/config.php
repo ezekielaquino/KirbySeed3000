@@ -15,6 +15,10 @@ for more information: http://getkirby.com/license
 
 */
 
+/* make sure to delete this after install */
+c::set('panel.install', true);
+/* make sure to delete this after install */
+
 c::set('license', 'put your license key here');
 
 /*

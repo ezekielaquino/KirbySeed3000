@@ -51,6 +51,12 @@ A) Install yarn (https://yarnpkg.com/lang/en/) `npm install -g yarn`
 
 5. When you're ready to deploy, just run `npm run prod`, this minifies/compresses/use all templates/css/images
 
+NOTE:
+
+- to go to panel go to `/panel`
+- to enable installation to work initially, `panel.install` is set to true in `site/config/config.php`
+- DELETE the lines indicated in the comment in `config.php` after you've created your account
+
 * Constantly a [WIP]
 
 ## Plugs for the plugins included
