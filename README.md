@@ -28,12 +28,12 @@ Important note: Kirby is free to try, but you need a license when you deploy. Tr
 ## Why?
 
 I've been trying to look for a simple and straight-forward setup when building stuff on Kirby– found none! So here's
-something packaged up I've made for my own use and sharing it to you all! I hope you find it useful.
+something packaged up that I've made for my own use and sharing with you all! I hope you find it useful.
 
 What this does not attempt to accomplish:
 - This does not attempt to change the world, or revolutionise anything, it's just a starter kit you guys. Use it as you wish! Improve it! Build on top of it!
 - It will not automatically build amazing things for you, you have to do it. But this does get rid of the 'setup' and 'plumbing' noise and allows you to just jump in.
-- This started HAS NOT altered Kirby in any way. It's Vanilla, you can do all your magic on top.
+- This starter HAS NOT altered Kirby in any way. It's Vanilla, you can do all your magic on top, add plugins etc.
 
 Start simple!
 
@@ -61,9 +61,11 @@ NOTE:
 
 ## Plugs for the plugins included
 
+- Kirby! (http://getkirby.com)
+- Want Kirby plugins? Google 'kirby plugins!' :)
 - Be stylish with your CSS via Stylus (http://stylus-lang.com/)
 - HTML? You can also do Twig when you make templates! (http://twig.sensiolabs.org/)
-- Rupture makes meida queries super clean and easy (https://github.com/jescalan/rupture)
+- Rupture makes media queries super clean and easy (https://github.com/jescalan/rupture)
   ```
     // In stylus– note the nesting
     .some-div {
@@ -85,7 +87,7 @@ NOTE:
 Put all image image assets in source/images. When using images in html/templates/css while in dev just use `images/**/filename.xxx` as the src. It will be automatically be changed to `sources/images/**/filename` (when in dev) or `assets/img/**/filename` (in prod). Forget about paths, Just... `images`.
 
 ## Say hi!
-The is completely free but I'd love to know if you have found it useful or improved it in any way! Drop me a line at ezekielaquino@gmail.com or via [@the_ezekiel](http://twitter.com/the_ezekiel) on Twitter! or better yet, [Share it on Twitter](https://twitter.com/home?status=%F0%9F%8D%AD%20KirbySeed3000%20%E2%80%93%20A%20Kirby%20flavored,%20no%20frills,%20super%20simple%20build%20setup%20http%3A//github.com/ezekielaquino/KirbySeed3000)!
+The is completely free but I'd love to know if you have found it useful or improved it in any way! Drop me a line at ezekielaquino@gmail.com or via [@the_ezekiel](http://twitter.com/the_ezekiel) on Twitter! or better yet, pay it forward and [Share it on Twitter](https://twitter.com/home?status=%F0%9F%8D%AD%20KirbySeed3000%20%E2%80%93%20A%20Kirby%20flavored,%20no%20frills,%20super%20simple%20build%20setup%20http%3A//github.com/ezekielaquino/KirbySeed3000)!
 
 ## License
 
