@@ -41,7 +41,7 @@ Start simple!
 
 A) Install yarn (https://yarnpkg.com/lang/en/) `npm install -g yarn`
 
-1. Clone this repo `git clone repoUrl [optional folder name]`
+1. Clone this repo `git clone git@github.com:ezekielaquino/KirbySeed3000.git [optional folder name]`
 
 2. `cd` to wherever you cloned it then run `yarn` to install dependencies
 

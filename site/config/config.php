@@ -17,8 +17,7 @@ for more information: http://getkirby.com/license
 
 /* make sure to delete this after install */
 c::set('panel.install', true);
-/* make sure to delete this after install */
-
+/* don't delete license! Fill it in when you deploy */
 c::set('license', 'put your license key here');
 
 /*
