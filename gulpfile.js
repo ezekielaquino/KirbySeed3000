@@ -96,7 +96,7 @@ gulp.task('watch', function() {
 
 // Create a php server
 gulp.task('php', function() {
-  php.server({ base: './', port: 8080, keepalive: true });
+  php.server({ base: './', port: 8080, keepalive: true, stdio: 'ignore' });
 });
 
 
