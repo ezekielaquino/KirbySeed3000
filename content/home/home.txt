@@ -19,8 +19,7 @@ All the files you need to edit and compile to create a site is
 located in /source. Site templates and snippets are in the folder "site"
 and all other assets are in their coressponding directories. Enjoy!
 
-- I suggest dragging 'source' into your favorite editor, and try editing a template or /source/stylus/base.styl
-- Templates and snippets are compiled from /source into /sites! So when working, edit the files in /source/sites
+- Try editing a template/snippet in /site or any css/js file to get a feel!
 - See the browser live reload!
 - Build your site
 - Ship it!

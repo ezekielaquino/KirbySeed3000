@@ -17,10 +17,7 @@ var php = require('gulp-connect-php');
 // Source paths, we watch and compile/compress
 // files from these directories
 var paths = {
-  templates: [
-    'source/site/**/*.php', 
-    'source/snippets/**/*.php'
-  ],
+  templates: './site/**/*.php',
   stylus: 'source/stylus/**/*.styl',
   images: 'source/images/**/*'
 }
@@ -40,17 +37,15 @@ var dest = {
 gulp.task('compile-templates', function() {
   return gulp.src(paths.templates)
     .pipe(plumber()) // plumber handles errors for us
-    .pipe(twig())
     .pipe(gulpif(argv.prod, htmlmin({ collapseWhitespace: true })))
     .pipe(gulpif(argv.dev, replace('images/', 'source/images/')))
     .pipe(gulpif(argv.prod, replace('images/', 'assets/img/')))
     .pipe(gulpif(argv.prod, replace('style.css', 'style.min.css')))
-    .pipe(rename({ extname: '.php' }))
     .pipe(gulp.dest(dest.build.templates))
 
   .on('end', function() {
-    log('🏄 Template Files: Done!');
-    if (argv.prod) log('🐳 Template Files: Minified!');
+    log('🏄 Template Files: Done! Changed image paths!');
+    if (argv.prod) log('🐳 Template Files: Done! Changed paths (img/.min)!');
   });
 });
 

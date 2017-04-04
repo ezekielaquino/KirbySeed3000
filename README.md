@@ -15,7 +15,6 @@ Important note: Kirby is free to try, but you need a license when you deploy. Tr
 - Running Kirby 2.4.1
 - No frills
 - Runs on gulp
-- Compiles all your templates.php, even use Twig! (via https://github.com/fvsch/kirby-twig)
 - Compresses images
 - Clean and easy media queries via Rupture
 - Autoprefix, because yolo
