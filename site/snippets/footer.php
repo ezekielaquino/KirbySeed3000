@@ -8,6 +8,6 @@
   This is the automatically compiled (via Webpack)
   script from source/js/script.js
 -->
-<script src="script.js"></script>
+<?= js('assets/js/script.js') ?>
 
 </html>

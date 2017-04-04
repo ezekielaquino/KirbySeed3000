@@ -10,6 +10,6 @@ module.exports = {
   },
   entry: './source/js/script.js',
   output: {
-    filename: 'script.js'
+    filename: './assets/js/script.js'
   }
 }
