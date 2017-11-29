@@ -70,15 +70,30 @@ class Form extends Brick {
 
       $field['name']    = $name;
       $field['default'] = a::get($field, 'default', null);
-      $field['value']   = a::get($this->values(), $name, $field['default']);
+      $field['value']   = $this->value($name, $field['default']);
 
       // Pass through parent field name (structureField)
       $field['parentField'] = $this->parentField;
 
-      // Check for untranslatable fields
-      if($translated and isset($field['translate']) and $field['translate'] === false) {
-        $field['readonly'] = true;
-        $field['disabled'] = true;
+      // Check for untranslatable and optionally translatable fields
+      if($translated && isset($field['translate'])) {
+        if($field['translate'] === false) {
+          // prevent edits in secondary languages entirely
+          $field['readonly'] = true;
+          $field['disabled'] = true;
+        } else if($field['translate'] === 'optional') {
+          $currentLang = $site->language()->code();
+          $defaultLang = $site->defaultLanguage()->code();
+
+          $currentValue = $field['page']->content($currentLang)->get($name)->value();
+          $defaultValue = $field['page']->content($defaultLang)->get($name)->value();
+
+          // make the field empty if the value was inherited from the default language
+          // and if it's not also the one that's currently stored for the current language
+          if($field['value'] === $defaultValue && $field['value'] !== $currentValue) {
+            $field['value'] = null;
+          }
+        }
       }
 
       $this->fields->append($name, static::field($field['type'], $field));
@@ -95,8 +110,8 @@ class Form extends Brick {
     return $this;
   }
 
-  public function value($name) {
-    return a::get($this->values(), $name, null);
+  public function value($name, $default = null) {
+    return a::get($this->values(), $name, $default);
   }
 
   public function validate() {
@@ -108,14 +123,14 @@ class Form extends Brick {
     foreach($this->fields() as $field) {
 
       // don't validate fields, which are not translatable
-      if($translated and $field->translate() === false) continue;
+      if($translated && $field->translate() === false) continue;
 
       $name  = $field->name();
       $value = $this->value($name);
 
-      if($field->required() and $value == '') {
+      if($field->required() && $value == '') {
         $field->error = true;
-      } else if($value !== '' and $field->validate() == false) {
+      } else if($value !== '' && $field->validate() == false) {
         $field->error = true;
       }
 
@@ -133,7 +148,7 @@ class Form extends Brick {
     $this->message->addClass('message');
 
     if($type == 'error') {
-      $this->message->addClass('message-is-alert');      
+      $this->message->addClass('message-is-alert');
     } else {
       $this->message->addClass('message-is-notice');
     }
@@ -172,7 +187,7 @@ class Form extends Brick {
     }
 
     // unset untranslatable fields in all languages but the default lang
-    if($site->multilang() and $site->language() != $site->defaultLanguage()) {
+    if($site->multilang() && $site->language() != $site->defaultLanguage()) {
       foreach($fields as $field) {
         if($field->translate() === false) {
           $data[$field->name()] = null;
@@ -213,7 +228,7 @@ class Form extends Brick {
 
         $kirbytext = kirby()->option('panel.kirbytext', true);
 
-        $this->data('textarea', get('textarea'));    
+        $this->data('textarea', get('textarea'));
         $this->data('autosubmit', 'false');
         $this->data('kirbytext', r($kirbytext, 'true', 'false'));
         $this->buttons->submit->val(l('insert'));
@@ -229,7 +244,7 @@ class Form extends Brick {
   public function cancel() {
     if($redirect = $this->redirect()) {
       $this->buttons->cancel->href = purl($redirect);
-    } else {    
+    } else {
       $this->buttons->cancel->href = call('purl', func_get_args());
     }
   }
@@ -239,7 +254,7 @@ class Form extends Brick {
     $class = $type . 'field';
 
     if(!class_exists($class)) {
-      throw new Exception('The ' . $type . ' field is missing. Please add it to your installed fields or remove it from your blueprint');      
+      throw new Exception('The ' . $type . ' field is missing. Please add it to your installed fields or remove it from your blueprint');
     }
 
     $field = new $class;
@@ -273,7 +288,7 @@ class Form extends Brick {
     $submit->attr('type', 'submit');
     $submit->addClass('btn-submit');
     $submit->data('saved', l('saved'));
-    $submit->val(l('save'));        
+    $submit->val(l('save'));
 
     $this->buttons->append('submit', $submit);
 
@@ -284,9 +299,9 @@ class Form extends Brick {
   public function on($action, $callback) {
 
     // auto-trigger the submit event when the form is being echoed
-    if(r::is('post')) {    
+    if(r::is('post')) {
       $callback($this);
-    } 
+    }
 
     $this->fields->append('csrf', static::field('hidden', array(
       'name'  => 'csrf',
@@ -296,17 +311,17 @@ class Form extends Brick {
   }
 
   public function toHTML() {
-    
+
     if($this->message) {
-      $this->append($this->message);      
+      $this->append($this->message);
     }
-    
+
     $fieldset = new Brick('fieldset');
     $fieldset->addClass('fieldset field-grid cf');
 
     foreach($this->fields() as $field) $fieldset->append($field);
-  
-    // pass the redirect url   
+
+    // pass the redirect url
     $redirectField = new Brick('input');
     $redirectField->type  = 'hidden';
     $redirectField->name  = '_redirect';
@@ -335,7 +350,7 @@ class Form extends Brick {
     // disable all form fields
     foreach($this->fields as $field) {
       $field->readonly = true;
-    }  
+    }
 
     // hide all the buttons
     $this->centered = true;
@@ -345,9 +360,9 @@ class Form extends Brick {
   }
 
   public function __toString() {
-    
+
     $this->toHTML();
-    return parent::__toString();    
+    return parent::__toString();
 
   }
 

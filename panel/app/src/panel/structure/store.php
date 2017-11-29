@@ -64,11 +64,22 @@ class Store {
    */
   public function sync() {
 
+    // get the age of the currently stored content file
     $file     = $this->structure->model()->textfile();
     $ageModel = f::exists($file) ? f::modified($file) : 0;
+
+    // same for the default language in multilang
+    if(site()->multilang()) {
+      $fileDefL     = $this->structure->model()->textfile(null, site()->languages()->findDefault()->code());
+      $ageModelDefL = f::exists($fileDefL) ? f::modified($fileDefL) : 0;
+    } else {
+      $ageModelDefL = $ageModel; // there's only one content file to check
+    }
+
+    // get the age of the current version in store
     $ageStore = s::get($this->id() . '_age');
 
-    if($ageStore < $ageModel) {
+    if($ageStore < $ageModel || $ageStore < $ageModelDefL) {
       $this->reset();
       $this->age = $ageModel;
     } else {

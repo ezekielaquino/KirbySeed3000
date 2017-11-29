@@ -73,15 +73,16 @@ abstract class UserAbstract {
     $data  = $this->data();
 
     if(empty($data['role'])) {
-      // apply the default role, if no role is stored for the user
-      $data['role'] = $roles->findDefault()->id();
+      // apply the fallback "nobody" role if no role is stored for the user
+      $data['role'] = 'nobody';
     }
 
     // return the role by id
     if($role = $roles->get($data['role'])) {
       return $role;
     } else {
-      return $roles->findDefault();
+      // return the fallback "nobody" role without permissions
+      return $roles->get('nobody');
     }
 
   }
@@ -157,6 +158,7 @@ abstract class UserAbstract {
   }
 
   public function gravatar($size = 256) {
+    if(!$this->email()) return false;
     return gravatar($this->email(), $size);
   }
 
@@ -180,9 +182,38 @@ abstract class UserAbstract {
     return sha1($this->username() . $key);
   }
 
+  /**
+   * Log in with password
+   *
+   * @param  string $password
+   * @return boolean
+   */
   public function login($password) {
 
+    if(!$this->password) return false;
     if(!password::match($password, $this->password)) return false;
+
+    return $this->_login();
+
+  }
+
+  /**
+   * Log in without password
+   *
+   * @return boolean
+   */
+  public function loginPasswordless() {
+
+    return $this->_login();
+
+  }
+
+  /**
+   * Processes the successful login
+   *
+   * @return boolean
+   */
+  protected function _login() {
 
     $data = array();
     if(static::current()) {
@@ -257,14 +288,6 @@ abstract class UserAbstract {
         throw new Exception('Invalid username');
       }
 
-      if(empty($data['password'])) {
-        throw new Exception('Invalid password');
-      }
-
-    }
-
-    if(!empty($data['email']) and !v::email($data['email'])) {
-      throw new Exception('Invalid email');
     }
 
   }
@@ -437,6 +460,10 @@ abstract class UserAbstract {
    */
   public function __debuginfo() {
     return $this->toArray();
+  }
+
+  public function __clone() {
+    if(isset($this->cache['avatar'])) $this->cache['avatar'] = clone $this->cache['avatar'];
   }
 
 }
