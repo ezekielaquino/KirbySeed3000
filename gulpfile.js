@@ -37,9 +37,6 @@ var dest = {
 gulp.task('compile-templates', function() {
   return gulp.src(paths.templates)
     .pipe(plumber()) // plumber handles errors for us
-    .pipe(gulpif(argv.prod, htmlmin({ collapseWhitespace: true })))
-    .pipe(gulpif(argv.dev, replace('images/', 'source/images/')))
-    .pipe(gulpif(argv.prod, replace('images/', 'assets/img/')))
     .pipe(gulpif(argv.prod, replace('style.css', 'style.min.css')))
     .pipe(gulp.dest(dest.build.templates))
 
@@ -85,7 +82,6 @@ gulp.task('compress-images', function() {
 
 // Watch our files for changes
 gulp.task('watch', function() {
-  gulp.watch(paths.templates, ['compile-templates']);
   gulp.watch(paths.stylus, ['compile-stylus']);
 });
 
