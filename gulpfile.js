@@ -86,16 +86,16 @@ gulp.task('watch', function() {
 });
 
 // Create a php server
-gulp.task('php', function() {
-  php.server({ base: './', port: 8080, keepalive: true, stdio: 'ignore' });
-});
+// gulp.task('php', function() {
+//   php.server({ base: './', port: 8080, keepalive: true, stdio: 'ignore' });
+// });
 
 
 gulp.task('dev', [
   'compile-templates',
   'compile-stylus',
   'watch',
-  'php'
+  // 'php'
 ]);
 
 gulp.task('prod', [

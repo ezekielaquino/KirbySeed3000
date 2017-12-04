@@ -31,3 +31,31 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+
+c::set('routes', array(
+  array(
+    'pattern' => array('', '/'),
+    'action' => function() {
+      return go('/design');
+    }
+  ),
+  array(
+    'pattern' => array(
+      'design',
+      'design/(:any)'
+    ),
+    'action' => function() {
+      return page('/design');
+    }
+  ),
+  array(
+    'pattern' => array(
+      'sound',
+      'sound/(:any)'
+    ),
+    'action' => function() {
+      return page('/about');
+    }
+  ),
+));

@@ -1,21 +1,17 @@
 <?php snippet('header') ?>
+<?php $projects = page('projects')->children()->visible(); ?>
+  <main>
 
-  <main class="main" role="main">
-    
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->intro()->kirbytext() ?>
-      </div>
+    <?php foreach($projects as $project): ?>
+      <section class="project" id="<?= $project->slug() ?>">
+        <div class="slide slide--cover">
+          <?= $project->title() ?>
+        </div>
 
-      <div>
-        <?= $page->quickie()->kirbytext() ?>
-      </div>
-    </header>
 
-    <div class="text wrap">
-      <?= $page->text()->kirbytext() ?>
-    </div>
+      </section>
+    <?php endforeach?>
+
   </main>
 
 <?php snippet('footer') ?>

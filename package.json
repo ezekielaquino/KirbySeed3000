@@ -34,8 +34,11 @@
     "webpack:prod": "webpack --optimize-minimize",
     "gulp": "gulp dev --dev",
     "gulp:prod": "gulp prod --prod",
-    "browsersync": "browser-sync start --port 3007 --proxy 127.0.0.1:8080 --files '**/*.css' '**/*.js' '**/*.php'",
+    "browsersync": "browser-sync start --port 3007 --proxy 127.0.0.1:8888 --files '**/*.css' '**/*.js' '**/*.php'",
     "dev": "npm run webpack & npm run gulp & npm run browsersync",
     "prod": "npm run webpack:prod & npm run gulp:prod"
+  },
+  "dependencies": {
+    "zenscroll": "^4.0.0"
   }
 }

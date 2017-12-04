@@ -1,5 +1,6 @@
 html {
   font-size: 24px;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,10 +13,6 @@ h1, h2 {
   font-weight: bold;
 }
 
-.ezekiel {
-  font-size: 10vw;
-}
-
 ul {
   list-style-type: disc;
   padding-left: 30px;
@@ -23,4 +20,53 @@ ul {
 
 a {
   color: blue;
+}
+
+.header {
+  width: calc(100% - 2rem);
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 9999;
+}
+
+
+
+
+
+
+
+
+
+
+.project {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.project-slides {
+  position: absolute;
+  transition: transform 1s;
+  will-change: transform;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  float: left;
+  border: 1px solid blue;
+}
+
+.slide--cover {
+  background: yellow;
+}
+
+.cover-info  {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
