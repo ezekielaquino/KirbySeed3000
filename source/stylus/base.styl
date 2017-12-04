@@ -30,7 +30,14 @@ a {
   z-index: 9999;
 }
 
-
+main {
+  width: calc(100vw + 20px);
+  height: 100vh;
+  padding-right: 20px;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 
 
@@ -44,6 +51,11 @@ a {
   height: 100vh;
   border: 1px solid red;
   overflow: hidden;
+
+  &.is-animating {
+    background:rgba(blue, 0.1);
+    // pointer-events: none;
+  }
 }
 
 .project-slides {
@@ -61,7 +73,7 @@ a {
 }
 
 .slide--cover {
-  background: yellow;
+  background: rgba(red, 0.2);
 }
 
 .cover-info  {
@@ -69,4 +81,9 @@ a {
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
+}
+
+
+footer {
+  display: none;
 }
