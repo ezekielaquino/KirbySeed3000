@@ -2,8 +2,44 @@ Title: About
 
 ----
 
-Intro: This page demonstrates how you can utilize subpages to store content, like our team members shown below. This approach is especially useful when you have to handle a large number of datasets, many different kinds of data (like page sections) or very complex data with a lot of media files or fields.
+Text: 
 
 ----
 
-Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+Contacttitle: Contact
+
+----
+
+Contact: 
+
+Große Neugasse 1/5
+
+1040 Vienna
+
+Austria
+
++43 677 123 456
+
+(link:info@astridseme.com text: email), (link:<http://instagram.com> text: instagram)
+
+----
+
+Abouttitle: About
+
+----
+
+About: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus dolor id nisl blandit, et tincidunt ex ullamcorper. Nunc nec fermentum odio. Mauris accumsan ut ex nec fringilla. Mauris sit amet ligula pretium, dictum velit nec, [finibus magna](http://google.com). Maecenas et odio varius, viverra quam scelerisque, rhoncus urna. Praesent mollis mattis felis in suscipit. Nulla facilisi. Cras eleifend laoreet nisi nec auctor. Nunc ut diam maximus, lacinia ligula id, vehicula sem.
+
+----
+
+Builder: 
+
+- 
+  title: Teaching and Lectures
+  content: |
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  _fieldset: section

@@ -1,0 +1,56 @@
+title: Project
+
+files:
+  sortable: true
+  fields:
+    color:
+      label: Average color
+      type: text
+
+options:
+  preview: false
+  status: false
+  template: false
+  url: false
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  cover:
+    label: Cover
+    type: image
+
+  intro:
+    label: Introduction
+    type: text
+
+  builder:
+    label: Slides
+    type: builder
+    fieldsets:
+      image:
+        label: Image Slide
+        fields:
+          image:
+            label: Image
+            type: image
+            _fieldset: image
+      text:
+        label: Text Slide
+        fields:
+          text:
+            label: Text
+            type: textarea
+            _fieldset: text
+
+  text:
+    label: Text
+    type:  textarea
+
+  meta:
+    label: Meta
+    type: textarea

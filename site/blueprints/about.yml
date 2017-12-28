@@ -1,24 +1,48 @@
 title: About
 
 pages:
+  hide: true
   template: team
   num: zero
 
 files: false
 
-options: 
-  template: false  
-  status: false  
-  
+options:
+  template: false
+  status: false
+  preview: false
+  url: false
+  delete: false
+
 fields:
-  title:
-    label: Title
-    type: title
-    
-  intro:
-    label: Intro
-    type: textarea
-    
-  text:
-    label: Text
-    type: textarea
+  contacttitle:
+    label: Contact Title
+    type: text
+
+  contact:
+    label: Contact Text
+    type: wysiwyg
+
+  abouttitle:
+    label: Info Title
+    type: text
+
+  about:
+    label: About Text
+    type: wysiwyg
+
+  builder:
+    label: Info sections
+    type: builder
+    fieldsets:
+      section:
+        label: Section
+        fields:
+          title:
+            label: Section Title
+            type: text
+            _fieldset: title
+          content:
+            label: Section content
+            type: wysiwyg
+            _fieldset: content

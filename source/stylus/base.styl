@@ -1,16 +1,49 @@
+$easing = cubic-bezier(0.645, 0.045, 0.355, 1);
+
+:root {
+  --cursor: default;
+}
+
+* {
+  outline: none;
+}
+
 html {
-  font-size: 24px;
+  font-size: 20px;
   overflow-x: hidden;
+
+  @media (max-width: 670px) {
+    font-size: 16px;
+  }
 }
 
 body {
-  font-family: 'Arial';
+  width: 100%;
+  height: 100%;
+  font-family: 'Maxima-Med', 'Arial', sans-serif;
+  font-weight: normal;
+  line-height: 1.45;
+  letter-spacing: 0.2px;
   background: url('images/met-bg.jpg') no-repeat center center / cover;
+  cursor: var(--cursor);
+  -webkit-font-smoothing: antialiased;
+
+  &:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background: #111;
+    animation: fadeOut 0.5s 0.25s forwards;
+  }
 }
 
-h1, h2 {
-  font-family: 'Comic Sans', 'Chalkboard', serif;
-  font-weight: bold;
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 ul {
@@ -18,16 +51,40 @@ ul {
   padding-left: 30px;
 }
 
-a {
-  color: blue;
-}
-
 .header {
   width: calc(100% - 2rem);
   position: fixed;
   left: 1rem;
   top: 1rem;
+  display: flex;
+  justify-content: space-between;
   z-index: 9999;
+  color: #ffffff;
+  backface-visibility: hidden;
+  transition: color 0.15s 0.25s $easing;
+
+  .is-project & {
+    color: #000000;
+  }
+
+  .is-about & {
+    color: #000000 !important;
+    transition: none;
+  }
+}
+
+.header-title {
+  position: relative;
+}
+
+.header-toggle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
 }
 
 main {
@@ -41,6 +98,56 @@ main {
 
 
 
+.information {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  padding-top: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: rgba(white, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  cursor: initial;
+  overflow: auto;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  .is-about & {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.information__contact,
+.information__sections {
+  width: 46%;
+}
+
+.information__contact {
+  position: fixed;
+  top: 4rem;
+  left: 1rem;
+}
+
+.information__sections {
+  margin-left: auto;
+}
+
+.information__section {
+  margin-bottom: 60px;
+}
+
+
 
 
 
@@ -49,19 +156,19 @@ main {
 .project {
   width: 100vw;
   height: 100vh;
-  border: 1px solid red;
   overflow: hidden;
+  position: relative;
 
-  &.is-animating {
-    background:rgba(blue, 0.1);
-    // pointer-events: none;
+  &:last-child {
+    margin-bottom: 2px;
   }
 }
 
 .project-slides {
   position: absolute;
-  transition: transform 1s;
+  transition: transform 1s $easing;
   will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .slide {
@@ -69,11 +176,75 @@ main {
   height: 100vh;
   position: relative;
   float: left;
-  border: 1px solid blue;
+  display: flex;
+}
+
+.slide-content {
+  margin: auto;
+
+  p {
+    width: 60vw;
+    height: auto;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+
+    @media (orientation: portrait) and (max-width: 768px) {
+      width: calc(100% - 2rem);
+      margin: auto;
+      font-size: 1rem;
+    }
+  }
+
+  img {
+    width: auto;
+    height: 75vh;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .slide--cover {
   background: rgba(red, 0.2);
+  cursor: e-resize;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+
+    .is-about & {
+      filter: blur(50px);
+    }
+  }
+
+  .is-about & {
+    overflow: hidden;
+  }
+}
+
+.slide {
+  @media (orientation: portrait) and (max-width: 768px) {
+    overflow: hidden;
+
+    img {
+      width: auto;
+      height: 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate3d(-50%, -50%, 0);
+    }
+  }
+}
+
+.slide--default {
+  .is-about & {
+    filter: blur(50px);
+  }
 }
 
 .cover-info  {
@@ -81,6 +252,144 @@ main {
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.project-info {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  cursor: initial;
+  backface-visibility: hidden;
+
+  .is-about & {
+    opacity: 0;
+  }
+}
+
+.project-info__header {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+}
+
+.project-info__title,
+.project-info__intro {
+  transition: opacity 0.25s;
+}
+
+.project-info__title {
+  cursor: pointer;
+  opacity: 0;
+
+  .is-active & {
+    opacity: 1;
+  }
+}
+
+.project-info__intro {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  color: #ffffff;
+
+  .is-active & {
+    opacity: 0;
+  }
+}
+
+.project-info__toggle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border: 0;
+  background: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.project-info__panel {
+  width: 100vw;
+  min-height: 50vh;
+  padding: 1.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate3d(0, 100%, 0);
+  background: #ffef88;
+  transition: transform 0.5s $easing;
+  will-change: transform;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .is-info & {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.project-info__description {
+  @media (min-width: 1024px) {
+    width: 70%;
+    padding-right: 1.5rem;
+  }
+
+  @media (max-width: 1024px) {
+    margin-bottom: 1rem;
+  }
+}
+
+.project-info__meta {
+  font-size: 0.8rem;
+  line-height: 22px;
+
+  @media (min-width: 1024px) {
+    width: 30%;
+    padding-top: 5px;
+  }
+}
+
+
+
+.audio-player {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+
+
+
+.scrollbar {
+  width: 20px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  // mix-blend-mode: color-dodge;
+
+  .is-about & {
+    opacity: 0;
+  }
+}
+
+.scrollbar-thumb {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(50,50,50,1) 100%);
+  will-change: transform;
+  transform-origin: 0% 0%;
+  border-radius: 8px;
+  opacity: 0;
 }
 
 

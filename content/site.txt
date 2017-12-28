@@ -1,4 +1,4 @@
-Title: KirbySeed3000
+Title: Astrid Seme Studio
 
 ----
 
@@ -10,9 +10,7 @@ Description: This is a Starter kit for Kirby with SEED3000.
 
 ----
 
-Footer:
-
-KirbySeed3000 is brought to you by (link: http://twitter.com/the_ezekiel text: Ezekiel Aquino)
+Footer: KirbySeed3000 is brought to you by (link: http://twitter.com/the_ezekiel text: Ezekiel Aquino)
 
 ----
 

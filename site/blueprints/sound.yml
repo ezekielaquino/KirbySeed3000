@@ -1,0 +1,9 @@
+Title: Sound
+
+files: false
+
+options:
+  preview: false
+  status: false
+  url: false
+  delete: false

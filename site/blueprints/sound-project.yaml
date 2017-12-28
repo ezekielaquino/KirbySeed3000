@@ -1,0 +1,54 @@
+title: Project
+
+files:
+  sortable: true
+  fields:
+    color:
+      label: Average color
+      type: text
+
+pages: false
+
+options:
+  preview: false
+  status: false
+  template: false
+  url: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Introduction
+    type: text
+
+  builder:
+    label: Slides
+    type: builder
+    fieldsets:
+      audio:
+        label: Sound Slide
+        fields:
+          audio:
+            label: Audio File
+            type: select
+            options: audio
+          image:
+            label: Image
+            type: image
+
+  text:
+    label: Text Slide
+    type:  builder
+    fieldsets:
+      pages:
+        label: Pages
+        fields:
+          page:
+            label: Text
+            type: textarea
+          size:
+            label: Small font-size?
+            type: checkbox

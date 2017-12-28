@@ -32,6 +32,7 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+c::set('debug', true);
 
 c::set('routes', array(
   array(
@@ -55,7 +56,7 @@ c::set('routes', array(
       'sound/(:any)'
     ),
     'action' => function() {
-      return page('/about');
+      return page('/sound');
     }
   ),
 ));

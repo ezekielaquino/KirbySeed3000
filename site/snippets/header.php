@@ -1,3 +1,5 @@
+<?php $link = $type === 'design' ? 'sound' : 'design' ?>
+
 <!doctype html>
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
@@ -13,11 +15,53 @@
 
 </head>
 <body>
-
   <header class="header">
-    <div class="grid">
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </div>
+    <div class="header-title">
+      <h1><?= $site->title()->html() ?></h1>
+      <button class="header-toggle">Information</button>
     </div>
+
+    <a href="/<?= $link ?>"><?= $link ?></a>
   </header>
+
+  <div class="information">
+    <?php
+      $about = page('about');
+      $aboutsections = $about->builder()->toStructure();
+    ?>
+
+
+    <div class="information__contact">
+      <h2>
+        <?= $about->contacttitle() ?>
+      </h2>
+
+      <p>
+        <?= $about->contact()->kirbytext() ?>
+      </p>
+    </div>
+
+    <div class="information__sections">
+      <div class="information__section js-infoAbout">
+        <h2>
+          <?= $about->abouttitle() ?>
+        </h2>
+
+        <p>
+          <?= $about->about()->kirbytext() ?>
+        </p>
+      </div>
+
+      <?php foreach($aboutsections as $section): ?>
+        <div class="information__section">
+          <h2>
+            <?= $section->title() ?>
+          </h2>
+
+          <p>
+            <?= $section->content()->kirbytext() ?>
+          </p>
+        </div>
+      <?php endforeach ?>
+    </div>
+  </div>

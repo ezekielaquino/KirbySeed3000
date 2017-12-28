@@ -1,0 +1,41 @@
+Title: Project A
+
+----
+
+Year: 2014
+
+----
+
+Text: 
+
+- 
+  page: This is a page on a text slide
+  _fieldset: pages
+- 
+  page: Another page on a text slide
+  _fieldset: pages
+
+----
+
+Meta: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+
+----
+
+Intro: This is a placeholder intro
+
+----
+
+Cover: about-image-big-retina.jpg
+
+----
+
+Slides: 
+
+----
+
+Builder: 
+
+- 
+  audio: david-bowie-let-s-dance.mp3
+  image: about-image-big-retina.jpg
+  _fieldset: audio
