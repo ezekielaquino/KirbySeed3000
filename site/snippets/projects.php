@@ -5,7 +5,9 @@
     <section class="project" data-type="<?= $type ?>" id="<?= $project->slug() ?>">
       <?php
         $slides = $project->builder()->toStructure();
-        $length = count($slides);
+        $textslide = $project->text()->toStructure();
+        $textcount = $type === 'sound' ? count($textslide) : 0;
+        $length = count($slides) + +$textcount;
         $count = +$length - 1; ?>
 
       <div class="project-info">
@@ -17,6 +19,12 @@
           <h3 class="project-info__intro">
             <?= $project->intro() ?>
           </h3>
+
+          <?php if($type === 'sound'): ?>
+            <p class="project-info__location">
+              <span class="js-projectLoc">1</span> of <?= $length ?>
+            </p>
+          <?php endif ?>
 
           <?php if($type !== 'sound'): ?>
             <button class="project-info__toggle">Info</button>
@@ -44,6 +52,29 @@
           <?php snippet('slides/' . $slide->_fieldset(), array('isCover' => $isCover, 'project' => $project, 'data' => $slide)) ?>
           <?php $index++; ?>
         <?php endforeach ?>
+
+        <?php if($type === 'sound'): ?>
+          <?php
+            $pages = $project->text()->toStructure();
+            $index = 1;
+          ?>
+
+          <?php foreach($pages as $page): ?>
+            <div class="slide slide--default">
+              <figure class="slide-content">
+                  <div class="slide-content__header">
+                    <?= $index ?>/<?= count($textslide) ?>
+                  </div>
+
+                  <?php $size = $page->size()->bool() ? 'is-small' : '' ?>
+                  <div class="slide-content__copy <?= $size ?>">
+                    <?= $page->page()->kirbytext() ?>
+                  </div>
+                  <?php $index++ ?>
+              </figure>
+            </div>
+          <?php endforeach ?>
+        <?php endif ?>
       </div>
     </section>
   <?php endforeach ?>

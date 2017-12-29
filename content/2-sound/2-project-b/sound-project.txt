@@ -6,7 +6,28 @@ Year: 2013
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Text: 
+
+- 
+  page: |
+    Nullam vel nisi dapibus turpis ultrices facilisis. Nulla eu tristique dui, a vulputate dolor. Etiam elementum velit sit amet posuere bibendum. Etiam hendrerit nunc nec leo laoreet, non eleifend justo bibendum. Ut ut accumsan odio.
+    
+    Fusce ut volutpat dui. Sed id ullamcorper odio. Sed condimentum sed ipsum ac consequat. In hac habitasse platea dictumst. Nulla mi nisi, varius eu tempor suscipit, facilisis id lacus. Sed vitae mollis odio.
+  size: "0"
+  _fieldset: pages
+- 
+  page: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Integer rhoncus dolor
+    id nisl blandit, et tincidunt ex
+    ullamcorper. Nunc nec fermentum odio.
+    Mauris accumsan ut ex nec fringilla.
+    Mauris sit amet ligula pretium, dictum
+    velit nec, finibus magna. Maecenas et
+    odio varius, viverra quam scelerisque,
+    rhoncus urna.
+  size: "0"
+  _fieldset: pages
 
 ----
 
@@ -32,8 +53,7 @@ Slides:
 Builder: 
 
 - 
-  image: room.jpg
-  _fieldset: image
-- 
-  image: table.jpg
-  _fieldset: image
+  audio: david-bowie-let-s-dance.mp3
+  image: 2012.44-ph-web-870.jpg
+  _fieldset: audio
+  color: '#ffef88'

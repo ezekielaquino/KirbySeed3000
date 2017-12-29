@@ -38,6 +38,10 @@ fields:
           image:
             label: Image
             type: image
+          color:
+            label: Audio Player Color
+            type: color
+            default: '#ffef88'
 
   text:
     label: Text Slide
@@ -48,7 +52,7 @@ fields:
         fields:
           page:
             label: Text
-            type: textarea
+            type: wysiwyg
           size:
             label: Small font-size?
             type: checkbox

@@ -1,4 +1,7 @@
-<?php $link = $type === 'design' ? 'sound' : 'design' ?>
+<?php
+  $link = $type === 'design' ? 'sound' : 'design';
+  $linkText = $type === 'design' ? 'sound' : 'graphic design';
+?>
 
 <!doctype html>
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
@@ -21,7 +24,9 @@
       <button class="header-toggle">Information</button>
     </div>
 
-    <a href="/<?= $link ?>"><?= $link ?></a>
+    <a class="header-nav" href="/<?= $link ?>">
+      <?= $linkText ?>
+    </a>
   </header>
 
   <div class="information">

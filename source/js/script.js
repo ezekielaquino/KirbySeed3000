@@ -10,6 +10,7 @@ let currentProject;
 let observer;
 let isAnimatedScroll;
 let initialScroll = true;
+let isInAudio;
 
 
 
@@ -49,6 +50,34 @@ aboutToggle.addEventListener('click', () => {
   document.body.classList.toggle('is-about');
 });
 
+window.addEventListener('keyup', e => {
+  e.preventDefault();
+
+  if (e.keyCode === 27) {
+    document.body.classList.remove('is-about');
+  }
+
+  if (e.keyCode === 39) {
+    // right
+    toggleSlides(currentProject, 'next');
+  }
+
+  if (e.keyCode === 37) {
+    // left
+    toggleSlides(currentProject, 'prev');
+  }
+
+  if (e.keyCode === 40) {
+    // down
+    goToNextProject(currentProject);
+  }
+
+  if (e.keyCode === 38) {
+    // up
+    goToNextProject(currentProject, true);
+  }
+});
+
 
 
 
@@ -69,10 +98,13 @@ observer = new IntersectionObserver(entries => {
 // Loop through the projects
 projects.forEach((project, index) => {
   project.index = index;
+  project.type = project.dataset.type;
+  project.isDesign = project.type === 'design';
   project.cover = project.querySelector('.slide--cover');
   project.slides = project.querySelector('.project-slides');
   project.info = project.querySelector('.project-info');
   project.infoToggle = project.info.querySelector('.project-info__toggle');
+  project.location = project.info.querySelector('.js-projectLoc');
   project.slides.current = 0;
   project.isExitInfo = false;
 
@@ -99,9 +131,61 @@ projects.forEach((project, index) => {
     });
   }
 
+  // audio
+  if (project.type === 'sound') {
+    const audioPlayer = project.querySelector('.js-audio');
+    const track = audioPlayer.querySelector('.js-audioTrack');
+    const play = audioPlayer.querySelector('.js-audioPlay');
+    const pause = audioPlayer.querySelector('.js-audioPause');
+    const src = audioPlayer.dataset.src;
+    const indicator = track.querySelector('span');
+    const audio = new Audio(src);
+
+    project.audio = audio;
+    project.audioPlayer = audioPlayer;
+    project.resetAudio = () => {
+      project.audio.pause();
+      project.audio.currentTime = 0;
+      project.audioPlayer.classList.remove('is-paused', 'is-playing');
+    };
+
+    audioPlayer.addEventListener('mouseenter', () => isInAudio = true );
+    audioPlayer.addEventListener('mouseleave', () => isInAudio = false );
+
+    track.addEventListener('click', e => {
+      const position = e.offsetX / track.offsetWidth;
+      audio.currentTime = position * audio.duration;
+      indicator.style.backgroundColor = audioPlayer.dataset.color;
+      indicator.style.transform = `scale(${position}, 1)`;
+    });
+
+    play.addEventListener('click', () => {
+      audio.play();
+      audioPlayer.classList.remove('is-paused');
+      audioPlayer.classList.add('is-playing');
+    });
+
+    pause.addEventListener('click', () => {
+      audio.pause();
+      audioPlayer.classList.remove('is-playing');
+      audioPlayer.classList.add('is-paused');
+    });
+
+    audio.ontimeupdate = () => {
+      const position = audio.currentTime / audio.duration;
+      indicator.style.backgroundColor = audioPlayer.dataset.color;
+      indicator.style.transform = `scale(${position}, 1)`;
+    }
+
+    audio.onended = () => {
+      indicator.style.transform = `scale(0, 1)`;
+      project.resetAudio();
+    }
+  }
+
   // Advance back / forward
   project.slides.addEventListener('click', (e) => {
-    if (project.infoActive && !project.isExitInfo) { return; }
+    if (project.infoActive && !project.isExitInfo || isInAudio) { return; }
 
     if (e.clientX > window.innerWidth / 2) {
       // Next
@@ -136,7 +220,8 @@ window.addEventListener('mousemove', (e) => {
 
 
 window.onpopstate = (e) => {
-  window.scrollTo(0, getCurrent().location);
+  const location = getCurrent().location;
+  window.scrollTo(0, location);
 }
 
 
@@ -191,15 +276,20 @@ function toggleSlides(elem, direction) {
         slides.current += 1;
       }
 
-      if (isLast && elem.isExitInfo) {
+      if (isLast && elem.isExitInfo && elem.isDesign) {
         goToNextProject(elem);
         elem.isExitInfo = false;
+      }
+
+      if (isLast && !elem.isDesign) {
+        goToNextProject(elem);
       }
 
       if (isLast && !elem.isExitInfo) {
         toggleInfo();
         elem.isExitInfo = true;
       }
+
       break;
     }
     case 'prev': {
@@ -207,23 +297,23 @@ function toggleSlides(elem, direction) {
         elem.isExitInfo = false;
         slides.current -= 1;
       }
+
       if (slides.current === 0) {
         if (elem.isActive) {
           elem.isActive = false;
           document.body.classList.remove('is-project');
           currentProject.classList.remove('is-active');
         } else {
-          if (!isLast && !isSingle) {
-            elem.isActive = true;
-            document.body.classList.add('is-project');
-            slides.current += 1;
-          } else {
-            toggleSlides(elem, 'next');
-          }
+          toggleSlides(elem, 'next');
         }
       }
+
       break;
     }
+  }
+
+  if (elem.location) {
+    elem.location.innerHTML = slides.current + 1;
   }
 
   slides.style.transform = `translate3d(${slides.current * -100}vw, 0, 0)`;
@@ -233,8 +323,19 @@ function toggleSlides(elem, direction) {
 
 
 
-function goToNextProject(project) {
-  const index = project.index < projects.length - 1 ? project.index + 1 : 0;
+function goToNextProject(project, isPrev) {
+  let index;
+
+  if (!isPrev) {
+    index = project.index < projects.length - 1 ? project.index + 1 : 0;
+  } else {
+    index = project.index > 0 ? project.index - 1 : projects.length - 1;
+  }
+
+  if (project.audio) {
+    project.resetAudio();
+  }
+
   const nextProject = projects[index];
 
   document.body.classList.remove('is-project');
@@ -317,7 +418,6 @@ function setRoute(project, noScroll) {
   } else {
     document.body.classList.remove('is-project');
   }
-
 
   currentProject = project;
 
