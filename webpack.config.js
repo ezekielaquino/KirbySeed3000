@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
   module: {
     loaders: [
@@ -11,5 +13,11 @@ module.exports = {
   entry: './source/js/script.js',
   output: {
     filename: './assets/js/script.js'
-  }
+  },
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
+    })
+  ]
 }

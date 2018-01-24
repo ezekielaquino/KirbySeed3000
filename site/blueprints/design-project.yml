@@ -9,7 +9,6 @@ files:
 
 options:
   preview: false
-  status: false
   template: false
   url: false
 
@@ -19,14 +18,17 @@ fields:
   title:
     label: Title
     type:  text
+    required: true
 
   cover:
     label: Cover
     type: image
+    required: true
 
   intro:
     label: Introduction
     type: text
+    required: true
 
   builder:
     label: Slides

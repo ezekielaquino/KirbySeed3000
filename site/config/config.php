@@ -15,8 +15,6 @@ for more information: http://getkirby.com/license
 
 */
 
-/* make sure to delete this after install */
-c::set('panel.install', true);
 /* don't delete license! Fill it in when you deploy */
 c::set('license', 'put your license key here');
 
@@ -38,7 +36,7 @@ c::set('routes', array(
   array(
     'pattern' => array('', '/'),
     'action' => function() {
-      return go('/design');
+      return go('/design/');
     }
   ),
   array(
@@ -56,7 +54,7 @@ c::set('routes', array(
       'sound/(:any)'
     ),
     'action' => function() {
-      return page('/sound');
+      return page('/sound/');
     }
   ),
 ));

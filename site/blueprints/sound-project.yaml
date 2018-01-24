@@ -11,7 +11,6 @@ pages: false
 
 options:
   preview: false
-  status: false
   template: false
   url: false
 
@@ -19,10 +18,12 @@ fields:
   title:
     label: Title
     type:  text
+    required: true
 
   intro:
     label: Introduction
     type: text
+    required: true
 
   builder:
     label: Slides
@@ -42,6 +43,14 @@ fields:
             label: Audio Player Color
             type: color
             default: '#ffef88'
+      image:
+        label: Image Slide
+        fields:
+          image:
+            label: Image
+            type: image
+            _fieldset: image
+        
 
   text:
     label: Text Slide

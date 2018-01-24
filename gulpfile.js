@@ -37,7 +37,7 @@ var dest = {
 gulp.task('compile-templates', function() {
   return gulp.src(paths.templates)
     .pipe(plumber()) // plumber handles errors for us
-    .pipe(gulpif(argv.prod, replace('style.css', 'style.min.css')))
+    // .pipe(gulpif(argv.prod, replace('style.css', 'style.min.css')))
     .pipe(gulp.dest(dest.build.templates))
 
   .on('end', function() {
@@ -57,7 +57,7 @@ gulp.task('compile-stylus', function() {
   return gulp.src('./source/stylus/style.styl')
     .pipe(plumber())
     .pipe(stylus(options))
-    .pipe(gulpif(argv.prod, rename('style.min.css')))
+    // .pipe(gulpif(argv.prod, rename('style.min.css')))
     .pipe(gulpif(argv.dev, replace('images/', 'source/images/')))
     .pipe(gulpif(argv.prod, replace('images/', 'assets/img/')))
     .pipe(gulp.dest(dest.build.css))

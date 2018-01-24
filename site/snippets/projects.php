@@ -1,13 +1,14 @@
 <?php $projects = page($type)->children()->visible(); ?>
 
-<main>
+<main id="projects">
   <?php foreach($projects as $project): ?>
-    <section class="project" data-type="<?= $type ?>" id="<?= $project->slug() ?>">
+    <section class="section project" data-type="<?= $type ?>" data-anchor="<?= $project->slug() ?>">
       <?php
         $slides = $project->builder()->toStructure();
         $textslide = $project->text()->toStructure();
+        $coverCount = $type === 'design' ? 1 : 0;
         $textcount = $type === 'sound' ? count($textslide) : 0;
-        $length = count($slides) + +$textcount;
+        $length = count($slides) + +$textcount + +$coverCount;
         $count = +$length - 1; ?>
 
       <div class="project-info">
@@ -44,12 +45,17 @@
         <?php endif ?>
       </div>
 
-      <div class="project-slides" style="width: <?= +$length * 100 ?>vw" data-slides="<?= $count ?>">
+      <?php if($type === 'design'): ?>
+          <div class="slide slide--default slide--cover" style="background-color: <?= $project->cover()->color() ?>">
+            <figure class="slide-content">
+              <img src="<?= $project->cover()->toFile()->url() ?>" />
+            </figure>
+          </div>
+        <?php endif ?>
+
         <?php $index = 0; ?>
         <?php foreach($slides as $slide): ?>
-          <?php $isCover = $index === 0 ? true : false; ?>
-
-          <?php snippet('slides/' . $slide->_fieldset(), array('isCover' => $isCover, 'project' => $project, 'data' => $slide)) ?>
+          <?php snippet('slides/' . $slide->_fieldset(), array('project' => $project, 'data' => $slide)) ?>
           <?php $index++; ?>
         <?php endforeach ?>
 
@@ -75,7 +81,6 @@
             </div>
           <?php endforeach ?>
         <?php endif ?>
-      </div>
     </section>
   <?php endforeach ?>
 </main>

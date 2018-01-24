@@ -39,6 +39,7 @@
     "prod": "npm run webpack:prod & npm run gulp:prod"
   },
   "dependencies": {
+    "fullpage.js": "^2.9.5",
     "intersection-observer": "^0.5.0",
     "zenscroll": "^4.0.0"
   }

@@ -7,3 +7,8 @@ options:
   status: false
   url: false
   delete: false
+
+fields:
+  intro:
+    label: Text
+    type: wysiwyg

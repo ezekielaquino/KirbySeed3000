@@ -24,7 +24,7 @@
       <button class="header-toggle">Information</button>
     </div>
 
-    <a class="header-nav" href="/<?= $link ?>">
+    <a class="header-nav" href="/staging/<?= $link ?>">
       <?= $linkText ?>
     </a>
   </header>
