@@ -1,0 +1,55 @@
+Title: Het Liedeken
+
+----
+
+Intro: Het Liedeken
+
+----
+
+Builder: 
+
+- 
+  image: >
+    recording-het-liedeken-plantin-archive-antwerp.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    plantin-moretus-antwerp-print-crop-het-liedeken.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: 
+
+“Het Liedeken” is a restaged forgotten song which draws its origin from a ceremonial song, sung by the printers from the famous Plantin-Moretus Press, founded in the 16th century by Christophe Plantin in Antwerp, Belgium. The printing workshop played a profound role in European’s book printing trade until the 17th century. When entering the printing guild the new journeymen celebrated together with their Godfathers and adjured their commitment by singing this very song. One of their requests in the lyrics is a good treatment and a fair payment to assure a proper quality of their work.
+Today only the lyrics of this song remains. As such it’s performative value is emptied out by the loss of its melody. I worked together with a group of employees from the Plantin-Archives which is located in the historic house in Antwerp. Each person was asked to sing the song with a melody and tone they imagined their ancestral co-workers would have sung, thus registering an implausible continuation of oral history. It is precisely this lack of access to the original song, that turns the text into pure rhetorics to be freely interpreted by four different perspectives.
+
+----
+
+Cover: plantin-moretus-antwerp-print-het-liedeken.jpg
+
+----
+
+Sound: het-liedeken-astrid-seme.mp3
+
+----
+
+Color: #ffef88
+
+----
+
+Covertheme: 0
+
+----
+
+Meta: 
+
+4.0 sound,  1' 29''
+in order of appearance and many thanks to: Werner Van Hoof (curator historic house), Kris Geysen (cataloger of rare books), Pierre Meulepas (assistant) and Elke Van Herck (conservator-restorer of paper and books)
+print: Museum Plantin-Moretus, Antwerp, UNESCO World Heritage
+
+----
+
+Covervideoposter: 

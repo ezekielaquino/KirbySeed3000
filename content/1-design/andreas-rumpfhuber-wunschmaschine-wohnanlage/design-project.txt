@@ -1,0 +1,76 @@
+Title: Andreas Rumpfhuber, Wunschmaschine Wohnanlage
+
+----
+
+Cover: wunschmaschine-rumpfhuber-design-astrid-seme1.jpg
+
+----
+
+Covertheme: 0
+
+----
+
+Covervideoposter: wunschmaschine-wohnanlage-rumpfhuber-design-astrid-seme.jpg
+
+----
+
+Intro: The spatio-social study unfolds in a generous picture book.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    wunschmaschine-rumpfhuber-design-astrid-seme1.jpg
+  caption: >
+    Andreas Rumpfhuber, Wunschmaschine
+    Wohnanlage
+  _fieldset: image
+- 
+  image: >
+    wunschmaschine-rumpfhuber-design-astrid-seme12.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    wunschmaschine-rumpfhuber-design-astrid-seme10.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    wunschmaschine-rumpfhuber-design-astrid-seme13.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    wunschmaschine-rumpfhuber-design-astrid-seme6.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    wunschmaschine-rumpfhuber-design-astrid-seme15.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    wunschmaschine-rumpfhuber-design-astrid-seme17.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    wunschmaschine-rumpfhuber-design-astrid-seme2.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: In his ‘machine désirante’, architect and theorist Andreas Rumpfhuber creates a spatio-social model of condensed, dynamic living and working for the future city of Vienna. From a haptic perspective the book is an economic paperback that appears less than a theory book but as a generous picture book, which unfolds in the hand of its readers, offering space for new and progressive ways of thinking. The giant stones, set in lilac on the cover, form a dreamlike sculpture of cohabitation.
+
+----
+
+Meta: 
+
+19 × 28 cm, 240 pp, thread sewn
+Publisher: Sonderzahl Verlag
+ISBN: 978-3854494645

@@ -1,0 +1,89 @@
+Title: About
+
+----
+
+Text: 
+
+----
+
+Contacttitle: Contact
+
+----
+
+Contact: 
+
+Große Neugasse 1/5
+
+1040 Vienna
+
+Austria
+
++43 677 123 456
+
+(link:info@astridseme.com text: email), (link:<http://instagram.com> text: instagram)
+
+----
+
+Abouttitle: About
+
+----
+
+About: 
+
+Astrid Seme is an independent graphic designer from Graz, Austria based in Vienna. Rooted within the fields of graphic design and typography her studio works in scopes such as art direction, visual identities, books and other printed matter, e-books, websites and editorial projects.
+
+With regard to the content the work is based on research, concept and economical means of production. Apart of having a clear concept the use of it allows the rules to get pushed and evolve. This is very much part of the studio’s design process. The website presents a selection of design commissions illustrating the studio’s approach, ideas and design methods.
+
+Besides she’s part of [Mark Pezinger Verlag](http://www.markpezinger.de), a publishing house and exhibition-platform for artists’ books.
+
+----
+
+Builder: 
+
+- 
+  title: Teaching, Talks
+  content: |
+    - New Design University St. Pölten, AT
+    - RISD, Rhode Island School of Design, US
+    - Hochschule für Gestaltung Luzern, CH
+    - Typojanchi. Conference at International Typography Biennial. Seoul, KR
+    - [I Never Read](https://ineverread.com/static/podcasts/2017/INR-Radio_170615_06_ASTRID-SEME-STUDIO.mp3), Radio Podcasts. Basel, CH
+    - Fahrenheit39, Ravenna, IT
+    - Sint Lucas School of Arts, Brussels, BE
+    - Print Room, Rotterdam, NL
+    - Universität für angewandte Kunst Wien, AT
+    - Kasseler Kunstverein, DE
+    - Salon für Kunstbuch, AT
+  _fieldset: section
+- 
+  title: Acknowledgements, Features
+  content: |
+    - Tokio Type Directors Club
+    - 100 beste Plakate Deutschland Österreich Schweiz 
+    - 25th Design Biennial, Brno
+    - Typojanchi. International Typography Biennial, Seoul
+    - notamuse – A New Perspective on Graphic Design
+    - idea No.362, magazine
+    - GRAPHIC vol. 30 + 9, magazine
+    - LetterSeed8, Korean Society of Typography
+  _fieldset: section
+- 
+  title: Exhibitions (selection)
+  content: |
+    - Exposed Exhibitions – Fotoarchiv der Kunsthalle Basel. icw Doris Lasch, Kunsthalle Basel, CH
+    - Den rechten Loon. Intersections/Art Rotterdam icw Rib, NL
+    - No Reading, no Cry! Mark Pezinger at Open Graphic Art Studio/Museum of the City of Skopje, MK
+    - Growing up is giving up. Mark Pezinger at Rosa Brux, Brussels, BE
+    - WIELS Contemporary Art Center. Residency. Brussels, BE
+    - Hotel Charleroi. Charleroi, BE
+    - 9 to 5. Mark Pezinger at WIELS Contemporary Art Center, BE
+    - Mark Pezinger works both ways – From Performance to Publication. Centre de Documentation, FRAC Provence-Alpes-Côte d'Azur, Marseille, FR
+    - Typojanchi. International Typography Biennial. Seoul, KR
+    - I want to become Tarzan before sunset. Mark Pezinger at Pioneer Works. NYC, US
+    - I fail good. Beursschouwburg. Brussels, BE
+    - Un hombre habla en el bosque. Museo del arte contemporaneo. Santiago de Chile, CL
+    - Reading disorders, thinking out loud. Mark Pezinger at Kasseler Kunstverein, DE
+    - Mark Pezinger at Kunsthalle Sankt Gallen, CH
+    - Electric Eclectics. Festival of experimental music and sound art, Ontario, CA
+    - TONSPUR #41 (solo) Berlin, DE
+  _fieldset: section

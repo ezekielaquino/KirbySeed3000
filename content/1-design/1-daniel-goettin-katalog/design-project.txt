@@ -1,0 +1,111 @@
+Title: Daniel Göttin, KATALOG
+
+----
+
+Cover: daniel-goettin-katalog-body-design-astrid-seme.jpg
+
+----
+
+Covertheme: 1
+
+----
+
+Intro: The first catalogue raisonné about the Swiss artist Daniel Göttin.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    daniel-goettin-katalog-01-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-1-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-2-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-4-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-3-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-5-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-6-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-7-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-8-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-9-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-10-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-11-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-14-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    daniel-goettin-katalog-15-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: 
+
+Daniel Göttins work is very minimal but delight in play and experiment yet pragmatic using only semi-finished materials. Thus, in contrast to the bold but conscious title CATALOGUE, I wanted the book to appear almost like a handbook for everyday use. 
+My aim was to mirror Daniels consequent way of working and to act it out also within the book. Meaning that only by accumulating the works and their variations in a sequence also their immanent humour becomes visible since they don’t follow any mathematical rule but are executed most of the time without logic. 
+In the first part the works are “displayed” in the real space of the book. Therefore flat views seamlessly fit the layout but perspective views are released from the backgrounds and keep their three-dimensionality in the two-dimensional space of the book.
+The information is typeset very rigid on each page as it is essentially for the works. Only in combination with the images which are layouted to the biggest size possible the entire book becomes a trap of reality and reproduction! Rather small works reach into a new dimension whereas bigger ones are scaled down. As a result the chronologically ordered works become a new life WITH each other.
+
+----
+
+Meta: 
+
+Editing & design
+Perfect-bound, 12 × 17 cm, 272 pp
+Texts: Patricia Hug, Ines Goldbach (ed.), Konrad Tobler
+Publisher : Kunsthaus Baselland & (link: http://www.markpezinger.de/goettin.html text: Mark Pezinger Verlag target: _blank)
+ISBN: 978-3-9524774-1-0
+
+----
+
+Covervideoposter: 

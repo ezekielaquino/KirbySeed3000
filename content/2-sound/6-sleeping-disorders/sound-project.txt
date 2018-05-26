@@ -1,0 +1,38 @@
+Title: 88 Sleeping Disorders
+
+----
+
+Intro: 88 Sleeping Disorders
+
+----
+
+Builder: 
+
+- 
+  image: sheeps.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: Sleeping disorders are internationally classified into 88 categories, ranging from “Long Sleep” to “Psycho-physiologic Insomnia”. In this sound piece, a calm male voice recites one after another, based on the method of sheep counting. Acoustically, the meaning changes to a positive one: what robs you of sleep as a symptom, lulls you to sleep through a list of designations.
+
+----
+
+Cover: 88-sleeping-disorders-sound-astrid-seme.jpg
+
+----
+
+Sound: 88-sleeping-disorders-astrid-seme.mp3
+
+----
+
+Color: #804d10
+
+----
+
+Covertheme: 0
+
+----
+
+Meta: 2.0, speaker: Matthias Lühn, 10' 17"

@@ -1,0 +1,78 @@
+Title: Kulturakademie Tarabya Website
+
+----
+
+Cover: kulturakademie-tarabya-istanbul-animation-design-astrid-seme.mp4
+
+----
+
+Covertheme: 0
+
+----
+
+Intro: Bilingual website for Tarabya Cultural Academy, İstanbul.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    website-aktuelles-kulturakademie-tarabya-design-astrid-seme.jpg
+  caption: info
+  _fieldset: image
+- 
+  image: >
+    website-bilder-kulturakademie-tarabya-design-astrid-seme.jpg
+  caption: Info
+  _fieldset: image
+- 
+  image: >
+    website-presse-kulturakademie-tarabya-design-astrid-seme.jpg
+  caption: Details
+  _fieldset: image
+- 
+  image: >
+    website-veranstaltungen-kulturakademie-tarabya-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-stipendiaten-kulturakademie-tarabya-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-newsletter-kulturakademie-tarabya-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-team-kulturakademie-tarabya-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-stipendien-kulturakademie-tarabya-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: 
+
+The Tarabya Cultural Academy in Turkey is an artist residency programme of the Federal Government of Germany. It is directed by the German Embassy, Ankara in conjunction with the Goethe-Institut. 
+As an opening for the website randomised configured imagery of Tarabya melts with the content and gives a first glance of the magical place located on the shoreline of the Bosphorus strait near Istanbul. Furthermore subtle animations and transitions are reflecting the color shades of the ever changing Bosphorus allowing the website to slightly change its appearance from visit to visit.
+With fluid interactions and navigations featuring web forms, expanding menues and hiding / showing headers depending on user interaction.
+
+----
+
+Meta: 
+
+(link: http://kulturakademie-tarabya.com text: www.kulturakademie-tarabya.com target: _blank)
+icw German Federal Foreign Office, Goethe-Institut
+Development: (link: http://ezekielaquino.com text: Ezekiel Aquino target: _blank)
+
+----
+
+Covervideoposter: 

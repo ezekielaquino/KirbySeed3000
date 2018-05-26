@@ -1,0 +1,223 @@
+.field-with-images .images-add-button {
+  cursor: pointer; }
+  .field-with-images .images-add-button.open {
+    color: black; }
+
+.field-with-images.limit-reached .images-add-button {
+  display: none; }
+
+.field-with-images .images-limit {
+  font-weight: 400;
+  color: #777; }
+
+.field-with-images .images-dropdown {
+  display: none;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 10px;
+  position: absolute;
+  right: 0;
+  margin-top: 8px;
+  width: 280px;
+  max-height: 261px;
+  overflow-y: auto;
+  z-index: 200;
+  border-top: 2px solid black; }
+  .field-with-images .images-dropdown:after {
+    display: none; }
+  .field-with-images .images-dropdown.open {
+    display: block; }
+  .field-with-images .images-dropdown .filter-wrap {
+    position: relative; }
+    .field-with-images .images-dropdown .filter-wrap .icon {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #777; }
+  .field-with-images .images-dropdown input.filter {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+    padding: 1em;
+    padding-left: 55px; }
+    .field-with-images .images-dropdown input.filter:focus {
+      outline: none; }
+  .field-with-images .images-dropdown a {
+    display: block;
+    padding: .5em 1em .5em .5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    border-bottom: 1px solid #efefef; }
+    .field-with-images .images-dropdown a:last-child {
+      border-bottom: none; }
+    .field-with-images .images-dropdown a:hover {
+      color: #777;
+      cursor: pointer; }
+    .field-with-images .images-dropdown a.focused {
+      background-color: #efefef; }
+    .field-with-images .images-dropdown a.disabled, .field-with-images .images-dropdown a.filtered {
+      display: none; }
+    .field-with-images .images-dropdown a img {
+      width: 40px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: .5em; }
+    .field-with-images .images-dropdown a span.image {
+      vertical-align: middle; }
+  .field-with-images .images-dropdown span.no-more-images, .field-with-images .images-dropdown span.no-images-found {
+    padding: 0 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    display: none;
+    height: 56px;
+    line-height: 56px; }
+    .field-with-images .images-dropdown span.no-more-images.da, .field-with-images .images-dropdown span.no-images-found.da {
+      display: block; }
+  .field-with-images .images-dropdown span.no-more-images, .field-with-images .images-dropdown span.no-images-found {
+    padding: 0 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    display: none;
+    height: 56px;
+    line-height: 56px; }
+    .field-with-images .images-dropdown span.no-more-images.da, .field-with-images .images-dropdown span.no-images-found.da {
+      display: block; }
+  .field-with-images .images-dropdown span.add-all {
+    padding: 0 1em;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    background: black;
+    color: white;
+    text-align: center;
+    cursor: pointer; }
+    .field-with-images .images-dropdown span.add-all i.icon {
+      padding-right: .5em; }
+    .field-with-images .images-dropdown span.add-all:hover {
+      color: rgba(255, 255, 255, 0.75); }
+
+.field-with-images .imagesgrid .empty {
+  box-sizing: border-box;
+  padding: 1.5em;
+  padding-right: 210px;
+  padding-right: calc(162px + 3em);
+  background: #ddd;
+  overflow: hidden;
+  position: relative;
+  min-height: 111px; }
+  .field-with-images .imagesgrid .empty .no-images {
+    display: block;
+    margin-bottom: 1em; }
+  .field-with-images .imagesgrid .empty .tutorial {
+    display: block;
+    width: 162px;
+    position: absolute;
+    right: 1.5em;
+    top: 1.5em; }
+
+.field-with-images .imagesgrid.filled {
+  margin-bottom: -1.5em; }
+  .field-with-images .imagesgrid.filled .empty {
+    display: none; }
+
+.field-with-images .imagesgrid .imagesgrid-inner {
+  display: block;
+  display: grid;
+  grid-gap: 0 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  overflow: hidden; }
+
+.field-with-images .imagesgrid .images-item {
+  display: none;
+  margin-bottom: 1.5em;
+  min-width: 0;
+  overflow: hidden; }
+  .field-with-images .imagesgrid .images-item.selected {
+    display: block; }
+  .field-with-images .imagesgrid .images-item figure {
+    background: white; }
+  .field-with-images .imagesgrid .images-item .images-preview {
+    display: block;
+    width: 100%;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCOTdEOEI3OUE3MDMxMUUzOEIxNEZERTM0N0EzRjlGMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCOTdEOEI3QUE3MDMxMUUzOEIxNEZERTM0N0EzRjlGMSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkI5N0Q4Qjc3QTcwMzExRTM4QjE0RkRFMzQ3QTNGOUYxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkI5N0Q4Qjc4QTcwMzExRTM4QjE0RkRFMzQ3QTNGOUYxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+jGcG/wAAAAlQTFRF////zMzMzc3NCvMx6wAAACJJREFUeNpiYGRkYgQBBhgYIAGEBCO6SpIFmKCADDMAAgwATVgAkU8MrdIAAAAASUVORK5CYII=);
+    text-align: center; }
+    .field-with-images .imagesgrid .images-item .images-preview img {
+      display: inline-block;
+      vertical-align: top; }
+  .field-with-images .imagesgrid .images-item .images-info {
+    line-height: 1.5em;
+    border-bottom: 1px solid #ddd; }
+    .field-with-images .imagesgrid .images-item .images-info a {
+      display: block;
+      padding: 1em 1.5em; }
+    .field-with-images .imagesgrid .images-item .images-info span {
+      display: block; }
+  .field-with-images .imagesgrid .images-item .images-options .btn {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: .75em 1.5em;
+    text-align: center; }
+    .field-with-images .imagesgrid .images-item .images-options .btn:first-child {
+      border-right: 1px solid #ddd; }
+  .field-with-images .imagesgrid .images-item.over figure {
+    outline: 2px solid black;
+    outline-offset: -2px;
+    position: relative; }
+    .field-with-images .imagesgrid .images-item.over figure .images-preview, .field-with-images .imagesgrid .images-item.over figure .images-info, .field-with-images .imagesgrid .images-item.over figure .images-options {
+      opacity: .25; }
+    .field-with-images .imagesgrid .images-item.over figure:after {
+      content: '\f0a9';
+      font-family: FontAwesome;
+      font-size: 1.5em;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%); }
+
+.field-with-images .imagesgrid .add {
+  box-sizing: border-box;
+  display: none;
+  text-align: center;
+  margin-bottom: 1.5em; }
+  .field-with-images .imagesgrid .add.over {
+    display: block; }
+  .field-with-images .imagesgrid .add .inner {
+    color: black;
+    box-sizing: border-box;
+    position: relative;
+    border: 2px solid black; }
+    .field-with-images .imagesgrid .add .inner:after {
+      content: '\f055';
+      font-family: FontAwesome;
+      font-size: 1.5em;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%); }
+
+@media screen and (max-width: 800px) {
+  .field-with-images .imagesgrid .empty {
+    min-height: 0;
+    padding: 1.5em; }
+    .field-with-images .imagesgrid .empty .no-images {
+      margin: 0;
+      font-weight: normal; }
+    .field-with-images .imagesgrid .empty .tutorial {
+      display: none; }
+    .field-with-images .imagesgrid .empty .dragdrop-help {
+      display: none; } }

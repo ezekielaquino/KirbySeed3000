@@ -1,0 +1,77 @@
+Title: Silo Music
+
+----
+
+Intro: Silo Music
+
+----
+
+Builder: 
+
+- 
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Proin pretium ornare
+    lorem, in eleifend elit gravida id. Nam
+    at congue tellus, non tristique lectus.
+    Vestibulum sed luctus erat, sit amet
+    molestie ex. Nulla dapibus nulla ut
+    lacus finibus fringilla. Mauris
+    elementum consectetur ullamcorper.
+    Nullam sed suscipit neque. Cras viverra,
+    justo ac ultricies lacinia
+  _fieldset: text
+- 
+  image: silo_wiels_klein.jpg
+  _fieldset: image
+
+----
+
+Text: 
+
+- 
+  page: |
+    A generous, non-delicate uttering, even audible in the great distance of the urban environment; present and very centered with very little echo disturbances from the vacant site.
+    
+    From high up the volume drags to the ground and fades into the soil; unpleasantly rude like a ship’s horn right above your head.
+  size: "0"
+  _fieldset: pages
+- 
+  page: >
+    Suddenly a curious rattling sound is
+    emitted which changes to a distinct
+    musical note, reminding of a honking
+    truck; followed by a flogging, like
+    after a hard strike, rapidly fading tune
+    with a metallic character. It comes over
+    and over again. Very similar to the
+    swing of a church bell with strikes that
+    appear in very quick but irregular
+    successions; so a new one begins while
+    the preceding one still fades away. 
+  size: "0"
+  _fieldset: pages
+- 
+  page: 'The tension of the sound is broken by seconds or even minutes of relative quiet. Almost silence—but only almost, never entirely: still the sound keeps thundering in fragmented intervals, breaking the quiet in two.'
+  size: "0"
+  _fieldset: pages
+- 
+  page: 'Vibrations accompanied by a booming low frequency during the discharge. Again short, sharp bursts of motion occur: shrill, particularly obnoxious. The silo cries, it’s screeching and quaking, it’s dynamic. Now, it’s so loud that it could ruin itself due to the vibrations, even causing its collapse.'
+  size: "0"
+  _fieldset: pages
+
+----
+
+Cover: illu_silo-music_presentation.jpg
+
+----
+
+Sound: silo-music-astrid-seme.mp3
+
+----
+
+Color: #ffef88
+
+----
+
+Covertheme: 1

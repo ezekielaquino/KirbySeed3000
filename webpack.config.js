@@ -14,10 +14,5 @@ module.exports = {
   output: {
     filename: './assets/js/script.js'
   },
-  plugins: [
-    new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery"
-    })
-  ]
+  plugins: []
 }

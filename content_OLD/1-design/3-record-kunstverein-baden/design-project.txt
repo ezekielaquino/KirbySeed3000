@@ -1,0 +1,43 @@
+Title: record Kunstverein Baden
+
+----
+
+Cover: kunstverein-baden-schallplatte-cover-design-astrid-seme.jpg
+
+----
+
+Intro: A partying record celebrating 100 years of Kunstverein Baden.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    kunstverein-baden-schallplatte-tracklist-design-astrid-seme.jpg
+  _fieldset: image
+- 
+  image: >
+    kunstverein-baden-schallplatte-packaging-design-astrid-seme.jpg
+  _fieldset: image
+- 
+  image: >
+    kunstverein-baden-schallplatte-detail-design-astrid-seme.jpg
+  _fieldset: image
+
+----
+
+Text: 
+
+Past forward is a record by the artist duo kozek hörlonski (Peter Kozek + Thomas Hörl) celebrating 100 years of Kunstverein Baden and its members. I liked the idea that the vinyl itself looks kind of neutral by using the same card board as in the archives of Kunstverein. I was intrigued by the thought when the record is filed amongst all the other boxes in the archive it will suit immediately and become a part of history. 
+
+
+The title makes use of the typeface Akzidenz Grotesk—in reminiscence of its progressive past, which pointed  at the same time into a neutral future, it seemed to be a good fit for the record’s title.
+
+----
+
+Meta: 10-inch vinyl, edition: 300 (numbered), German + English
+
+----
+
+Covertheme: 1

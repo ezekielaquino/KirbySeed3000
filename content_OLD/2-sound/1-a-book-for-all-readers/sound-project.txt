@@ -1,0 +1,56 @@
+Title: A Book for all Readers
+
+----
+
+Intro: A Book for all Readers
+
+----
+
+Builder: 
+
+- 
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Proin pretium ornare
+    lorem, in eleifend elit gravida id. Nam
+    at congue tellus, non tristique lectus.
+    Vestibulum sed luctus erat, sit amet
+    molestie ex. Nulla dapibus nulla ut
+    lacus finibus fringilla. Mauris
+    elementum consectetur ullamcorper.
+    Nullam sed suscipit neque. Cras viverra,
+    justo ac ultricies lacinia
+  _fieldset: text
+- 
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Proin pretium ornare
+    lorem, in eleifend elit gravida id. Nam
+    at congue tellus, non tristique lectus.
+    Vestibulum sed luctus erat, sit amet
+    molestie ex. Nulla dapibus nulla ut
+    lacus finibus fringilla. Mauris
+    elementum consectetur ullamcorper.
+    Nullam sed suscipit neque. Cras viverra,
+    justo ac ultricies lacinia
+  _fieldset: text
+
+----
+
+Text: 
+
+----
+
+Cover: astrid-seme-studio-joburg-a-book-for-all-readers.jpg
+
+----
+
+Sound: astrid-seme-a-book-for-all-readers.mp3
+
+----
+
+Color: #c73b71
+
+----
+
+Covertheme: 0

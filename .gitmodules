@@ -1,3 +1,12 @@
 [submodule "site/plugins/dominantcolor"]
 	path = site/plugins/dominantcolor
 	url = git@github.com:iandoe/kirby-dominant-color.git
+[submodule "site/plugins/srcset"]
+	path = site/plugins/srcset
+	url = https://github.com/azharc/kirby-srcset.git
+[submodule "site/plugins/kirby-mobile-detect"]
+	path = site/plugins/kirby-mobile-detect
+	url = https://github.com/texnixe/kirby-mobile-detect.git
+[submodule "site/plugins/kirby-imageoptim"]
+	path = site/plugins/kirby-imageoptim
+	url = https://github.com/bnomei/kirby-imageoptim.git

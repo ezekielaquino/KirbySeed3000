@@ -13,6 +13,7 @@ var imagemin = require('gulp-imagemin');
 var replace = require('gulp-replace');
 var htmlreplace = require('gulp-html-replace');
 var php = require('gulp-connect-php');
+var fileRev = require('gulp-file-rev');
 
 // Source paths, we watch and compile/compress
 // files from these directories
@@ -58,8 +59,8 @@ gulp.task('compile-stylus', function() {
     .pipe(plumber())
     .pipe(stylus(options))
     // .pipe(gulpif(argv.prod, rename('style.min.css')))
-    .pipe(gulpif(argv.dev, replace('images/', 'source/images/')))
-    .pipe(gulpif(argv.prod, replace('images/', 'assets/img/')))
+    .pipe(gulpif(argv.dev, replace('images/', '../images/')))
+    .pipe(gulpif(argv.prod, replace('images/', '../images/')))
     .pipe(gulp.dest(dest.build.css))
 
   .on('end', function() {
@@ -90,6 +91,15 @@ gulp.task('watch', function() {
 //   php.server({ base: './', port: 8080, keepalive: true, stdio: 'ignore' });
 // });
 
+gulp.task('rev', function() {
+  var revision = fileRev();
+
+  return gulp.src('**/*')
+    .pipe(gulpif('**/*.{css, js}', revision))
+    .pipe(gulpif('**/*.{php}', revision.replace))
+    .pipe(gulp.dest('**/*'));
+});
+
 
 gulp.task('dev', [
   'compile-templates',
@@ -101,7 +111,8 @@ gulp.task('dev', [
 gulp.task('prod', [
   'compress-images',
   'compile-templates',
-  'compile-stylus'
+  'compile-stylus',
+  'rev',
 ]);
 
 

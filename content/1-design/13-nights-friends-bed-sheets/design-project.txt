@@ -1,0 +1,80 @@
+Title: nights+friends webshop
+
+----
+
+Cover: nights-and-friends-animation-design-astrid-seme.mp4
+
+----
+
+Intro: Provoking a sexy revolution nights+friends brings art out of the galleries into your bed.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    website-bedding-nights-and-friends-design-astrid-seme.jpg
+  _fieldset: image
+  caption: ""
+- 
+  image: >
+    website-product-nights-and-friends-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-about-nights-and-friends-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-contact-nights-and-friends-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-terms-nights-and-friends-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: climax-famous.jpg
+  caption: “climax” bed linen
+  _fieldset: image
+- 
+  image: >
+    climax-nightsandfriends-design-astrid-seme.jpg
+  caption: “climax” bed linen
+  _fieldset: image
+- 
+  image: >
+    climax-pillows-nightsandfriends-design-astrid-seme.jpg
+  caption: “climax” bed linen
+  _fieldset: image
+
+----
+
+Text: 
+
+n+f is a Vienna-based, artist-run company producing bedsheets designed by artists and designers in limited editions of 100. Literally, it offers the possibility to encounter art in a very intimate way. The design of the webshop plays with iconic elements of the night: The user is welcomed by a “performing” moon who is dancing in front of the stars. The stars build a constant background, while the various subpages are characterised by changing, sometimes absurd, color combinations, that can be associated with the different phases of the night.
+Outside of the usual work as graphic designer I was happy to design one of the bed linen and run in new dimensions!
+
+----
+
+Meta: 
+
+(link: http://www.nightsandfriends.com text: www.nightsandfriends.com target: _blank)
+Development: (link: http://www.gerhardjordan.com text: Gerhard Jordan target: _blank)
+“climax” duvet cover: 200 × 200 cm incl. 2 pillow cases: 50 × 60 cm
+
+----
+
+Covertheme: 0
+
+----
+
+Covervideobgcolor: #29303f
+
+----
+
+Covervideoposter: 

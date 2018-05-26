@@ -13,14 +13,12 @@ Contacttitle: Contact
 Contact: 
 
 Große Neugasse 1/5
-
 1040 Vienna
+Austria 
 
-Austria
-
-+43 677 123 456
-
-(link:info@astridseme.com text: email), (link:<http://instagram.com> text: instagram)
++43 677 620 440 05
+(link:post@astridseme.com text: email)
+(link:http://instagram.com text: instagram target: \_blank)
 
 ----
 
@@ -28,18 +26,62 @@ Abouttitle: About
 
 ----
 
-About: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus dolor id nisl blandit, et tincidunt ex ullamcorper. Nunc nec fermentum odio. Mauris accumsan ut ex nec fringilla. Mauris sit amet ligula pretium, dictum velit nec, [finibus magna](http://google.com). Maecenas et odio varius, viverra quam scelerisque, rhoncus urna. Praesent mollis mattis felis in suscipit. Nulla facilisi. Cras eleifend laoreet nisi nec auctor. Nunc ut diam maximus, lacinia ligula id, vehicula sem.
+About: 
+
+Astrid Seme is an independent graphic designer from Graz, Austria. She received her MA at Werkplaats Typografie, NL after graduating from University for Applied Arts, Vienna. Her studio works within the versatile fields of graphic design: art direction, visual identities, editorial projects—in web, print and space. In high esteem of contents the studios’ key principles are based on research, visual concepts and economical means of production.
+
+In 2014 she received a residency at WIELS Contemporary Art Centre in Brussels for her design work in conjunction with sound. Besides she’s part of [Mark Pezinger Verlag](http://www.markpezinger.de), a publishing house and exhibition-platform for artists’ books.
 
 ----
 
 Builder: 
 
 - 
-  title: Teaching and Lectures
+  title: Teaching, Talks
   content: |
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
+    - supervising tutor at New Design University, AT
+    - RISD, Rhode Island School of Design, US
+    - Hochschule für Gestaltung Luzern, CH
+    - Typojanchi. Conference at International Typography Biennial. Seoul, KR
+    - [I Never Read](https://ineverread.com/static/podcasts/2017/INR-Radio_170615_06_ASTRID-SEME-STUDIO.mp3), Radio Podcasts. Basel, CH
+    - Fahrenheit39, Ravenna, IT
+    - Sint Lucas School of Arts, Brussels, BE
+    - Print Room, Rotterdam, NL
+    - Universität für angewandte Kunst Wien, AT
+    - Kasseler Kunstverein, DE
   _fieldset: section
+- 
+  title: Acknowledgements, Features
+  content: |
+    - Tokyo Type Directors Club
+    - 25th Design Biennial, Brno
+    - Typojanchi. International Typography Biennial, Seoul
+    - 100 beste Plakate Deutschland Österreich Schweiz
+    - notamuse – A New Perspective on Graphic Design
+    - idea No.362, magazine
+    - GRAPHIC vol. 30 + 9, magazine
+    - LetterSeed8, Korean Society of Typography
+  _fieldset: section
+- 
+  title: Exhibitions (selection)
+  content: |
+    - Exposed Exhibitions – Fotoarchiv der Kunsthalle Basel. icw Doris Lasch, Kunsthalle Basel, CH
+    - Den rechten Loon. Intersections/Art Rotterdam icw Rib, NL
+    - No Reading, no Cry! Mark Pezinger at Graphic Studio/Museum of the City of Skopje, MK
+    - Mark Pezinger at Rosa Brux, Brussels, BE
+    - Hotel Charleroi. Charleroi, BE
+    - 9 to 5. Mark Pezinger at WIELS Contemporary Art Center, BE
+    - Mark Pezinger works both ways – From Performance to Publication. FRAC Provence-Alpes-Côte d'Azur, Marseille, FR
+    - Typojanchi. International Typography Biennial. Seoul, KR
+    - Mark Pezinger at Pioneer Works. NYC, US
+    - I fail good. Beursschouwburg. Brussels, BE
+    - Museo del arte contemporaneo. Santiago de Chile, CL
+    - Reading disorders, thinking out loud. Mark Pezinger at Kasseler Kunstverein, DE
+    - Mark Pezinger at Kunsthalle Sankt Gallen, CH
+    - Electric Eclectics. Festival of experimental music and sound art, Ontario, CA
+    - TONSPUR #41 (solo) Berlin, DE
+  _fieldset: section
+
+----
+
+Credits: small text!

@@ -1,0 +1,62 @@
+Title: Billy X. Curmano: Futurism’s Bastard Son
+
+----
+
+Cover: billy-curmano-futurisms-bastard-son-buch-design-astrid-seme.jpg
+
+----
+
+Intro: The first monograph on Billy X. Curmano which brings his time-based art and performance into printed matter.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    billy-curmano-futurisms-bastard-son-cover-buch-design-astrid-seme.jpg
+  _fieldset: image
+- 
+  image: >
+    billy-curmano-futurisms-bastard-son-swimming-major-buch-design-astrid-seme.jpg
+  _fieldset: image
+- 
+  image: >
+    billy-curmano-futurisms-bastard-son-swimming-buch-design-astrid-seme.jpg
+  _fieldset: image
+- 
+  image: >
+    billy-curmano-futurisms-bastard-son-rocking-boots-buch-design-astrid-seme.jpg
+  _fieldset: image
+- 
+  image: >
+    billy-curmano-futurisms-bastard-son-tv-buch-design-astrid-seme.jpg
+  _fieldset: image
+- 
+  image: >
+    billy-curmano-futurisms-bastard-son-index-buch-design-astrid-seme.jpg
+  _fieldset: image
+- 
+  image: >
+    billy-curmano-futurisms-bastard-son-backcover-buch-design-astrid-seme.jpg
+  _fieldset: image
+
+----
+
+Text: 
+
+“He’s the only human being in recorded history to claim the distinction of swimming the entire length of the Mississippi River. He was buried alive for three days in a much ballyhooed effort to bring art to the spirirt world that included a New Orleans-style funeral complete with Christlike resurrection. He once imprisoned himself in a tiger cage to protest the inhumane treatment of POWs in Vietnam. Maverick? Eccentric? Full-blown madman? Billy X. Curmano will be delighted to let you decide.”
+—Mary Beth Crain, LA Weekly, 1999
+
+----
+
+Meta: 
+
+Editing and design
+US Letter size, 128 pp
+Softcover with flaps, thread sewn
+Publisher: (link: http://www.markpezinger.de/curmano.html#3 text: Mark Pezinger Verlag target: _blank)
+
+----
+
+Covertheme: 1

@@ -1,0 +1,40 @@
+Title: Wien Mitte
+
+----
+
+Intro: Wien Mitte
+
+----
+
+Builder: 
+
+- 
+  image: wien-mitte-sound-astrid-seme.jpg
+  caption: >
+    installation view “Parallelaktion”,
+    Basel CH
+  _fieldset: image
+
+----
+
+Text: “Astrid Seme’s piece Wien Mitte [Vienna Center] lets the gaps in language resonate. She finds this sphere in the blank between the two words “Wien Mitte”, spoken by a male voice. In typography the blank space is a static and defined space whereas in speech it is ephemeral. Slowly Seme zooms literally into the center of the words, between “n” and “M”, to the short break the speaker makes. What sounds at first like a linguistic analysis becomes abstract, technical until it turns into a musical tune, which sounds like a cello playing in the center of Vienna Center.” — Mark Pezinger
+
+----
+
+Cover: wien-mitte-sound-astrid-seme.jpg
+
+----
+
+Sound: wien-mitte-astrid-seme.mp3
+
+----
+
+Color: #ffef88
+
+----
+
+Covertheme: 0
+
+----
+
+Meta: 2.0, speaker: Bruno Pisek, 5' 29"

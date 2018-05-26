@@ -1,0 +1,63 @@
+Title: Martín La Roche Contreras website
+
+----
+
+Cover: martin-la-roche-website-design-astrid-seme.mp4
+
+----
+
+Intro: An artists’ website established in the relationship between imagery and words.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    website-martin-la-roche-text-design-astrid-seme.jpg
+  caption: Martín La Roche Contreras website
+  _fieldset: image
+- 
+  image: >
+    website-martin-la-roche-emphasised-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-martin-la-roche-maastricht-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-martin-la-roche-reader-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    website-martin-la-roche-hairdresser-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: The single-page website for the Chilean artist Martín La Roche Contreras is established in the relationship between two parallel worlds: Imagery and Words. These two universes utilise the potential infinity of digital space within which one word is associated with several artworks. Hover states are used to lure the user in to explore further and discover major slide shows featuring Martín’s works.
+
+----
+
+Meta: 
+
+(link: http://www.martinlaroche.nl text: www.martinlaroche.nl target: _blank)
+Awarded by Tokyo Type Directors Club
+Development: (link: http://ezekielaquino.com text: Ezekiel Aquino target: _blank)
+
+----
+
+Covertheme: 0
+
+----
+
+Covervideobgcolor: #1d281e
+
+----
+
+Covervideoposter: 

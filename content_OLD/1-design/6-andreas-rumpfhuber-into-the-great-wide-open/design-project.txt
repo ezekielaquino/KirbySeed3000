@@ -1,0 +1,81 @@
+Title: Andreas Rumpfhuber, Into the Great Wide Open
+
+----
+
+Cover: into-the-great-wide-open-12-andreas-rumpfhuber-design-astrid-seme.jpg
+
+----
+
+Covertheme: 0
+
+----
+
+Intro: Andreas Rumpfhuber, Into the Great Wide Open
+
+----
+
+Builder: 
+
+- 
+  image: >
+    into-the-great-wide-open-title-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-1-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-2-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-3-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-5-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-6-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-7-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-8-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-9-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    into-the-great-wide-open-12-andreas-rumpfhuber-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: In reminiscence of the song and its video by Tom Petty and the Heartbreakers “Into the Great Wide Open” refers to the changing narrative of the literary figure of the hero, the rebel, the (self) entrepreneur and addresses subjects of contemporary architecture, its problems and its symptoms. It is a fragmentary snapshot of an ongoing, constantly developing and altering process to find a place in the production and reflection of our built environment, and implicitly disputes the question: “What is to be done?”
+
+----
+
+Meta: 
+
+16 × 24 cm, 272 pp, thread sewn
+Texts: Andreas Rumpfhuber (ed.), Francesco Marullo, Maria S. Giudici, John Goodbun, Matthias Moroder, Christian Teckert, Elke Krasny, Dubravka Sekulič
+Publisher: (link: http://www.dpr-barcelona.com/index.php?/projects/igwo/ text: dpr-barcelona)
+ISBN: 978-84-947523-1-5

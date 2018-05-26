@@ -1,0 +1,25 @@
+Title: Wien Mitte
+
+----
+
+Intro: Wien Mitte
+
+----
+
+Builder: 
+
+----
+
+Text: 
+
+----
+
+Cover: wien-mitte-sound-astrid-seme.jpg
+
+----
+
+Sound: wien-mitte-astrid-seme.mp3
+
+----
+
+Color: #ffef88

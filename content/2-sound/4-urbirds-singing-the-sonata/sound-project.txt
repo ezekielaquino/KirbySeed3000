@@ -1,0 +1,49 @@
+Title: Urbirds singing the Sonata
+
+----
+
+Intro: Urbirds singing the Sonata
+
+----
+
+Builder: 
+
+- 
+  image: kurt-schwitters-ursonate.jpg
+  caption: 'Kurt Schwitters: “ursonate” (designed by Jan Tschichold)'
+  _fieldset: image
+
+----
+
+Text: 
+
+There has never been a full agreement as to what were the key influences on Kurt Schwitters when he was preparing his sound poem “Ursonate” (1922–1932). There is one myth that claims he was inspired by bird sounds.
+I strongly believe this to be true and bring the birds their Ursonate back, their primordial song. “Urbirds singing the Sonata” narrate what Kurt Schwitters might have heard when he wrote the poem.
+
+----
+
+Cover: urbirds-singing-the-sonata-kurt-schwitters-birds.jpg
+
+----
+
+Sound: urbirds-2movement-excerpt-astrid-seme.mp3
+
+----
+
+Color: #569e3d
+
+----
+
+Covertheme: 1
+
+----
+
+Meta: 
+
+6.0 sound composition, 32' 39"
+many thanks to (link: https://grrrr.org text: Thomas Grill target: _blank)
+
+</br>Texts
+- Min Choi: (link: http://astridseme.com/staging/content/min-choi-typography-and-bird-sounds-urbirds-singing-the-sonata-astrid-seme.pdf text: Typography and Bird Sounds target: _blank) (en)
+- Ernst Strouhal: (link: http://astridseme.com/staging/content/ernst-strouhal-schwitters-zwitschern-astrid-seme-urbirds-singing-the-sonata.pdf text: Schwitters zwitschern target: _blank) (de)
+- Sarah Waldschmitt: (link: http://astridseme.com/staging/content/sarah-waldschmitt-urbirds-singing-the-sonata-astrid-seme.pdf text: Urbirds singing the Sonata target: _blank) (de)

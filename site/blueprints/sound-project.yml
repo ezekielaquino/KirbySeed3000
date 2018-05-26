@@ -1,0 +1,84 @@
+title: Project
+
+files:
+  sortable: true
+  fields:
+    color:
+      label: Average color
+      type: text
+
+pages: false
+
+options:
+  preview: false
+  template: false
+  url: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    required: true
+
+  cover:
+    label: Cover
+    type: select
+    options: files
+    required: true
+
+  covertheme:
+    label: Use black as font color while on cover slide?
+    text: Set the text color as BLACK (only on cover slide)
+    type: checkbox
+
+  covervideoposter:
+    label: Cover video first frame image
+    text: This is shown while the video is loading (blurred)
+    type: select
+    options: files
+
+  intro:
+    label: Introduction
+    type: text
+    required: true
+
+  sound:
+    label: Sound
+    type: select
+    options: audio
+    required: true
+
+  color:
+    label: Audio player color
+    type: color
+    default: '#ffef88'
+
+  builder:
+    label: Slides
+    type: builder
+    fieldsets:
+      image:
+        label: Image Slide
+        fields:
+          image:
+            label: Image
+            type: image
+            _fieldset: image 
+          caption:
+            label: Caption
+            type: text
+      text:
+        label: Text Slide
+        fields:
+          text:
+            label: Text
+            type: textarea
+            _fieldset: text
+
+  text:
+    label: Text
+    type:  textarea
+
+  meta:
+    label: Meta
+    type: textarea

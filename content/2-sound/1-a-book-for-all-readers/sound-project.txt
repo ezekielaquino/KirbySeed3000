@@ -1,0 +1,52 @@
+Title: A Book for all Readers
+
+----
+
+Intro: A Book for all Readers
+
+----
+
+Builder: 
+
+- 
+  image: poem-a-book-for-all-readers.jpg
+  caption: >
+    published by G. P. Putnam’s sons in
+    1900
+  _fieldset: image
+
+----
+
+Text: 
+
+“A Book for All Readers” has been published in an anthology of the same title in the late 19th century. The book is conceived as a guide to the formation of libraries and the collection, use, and preservation of books. The poem appears in the chapter ‘humors of the library’ (p. 442).
+Rap, a style inherited from poetry, shifts the printed words to ‘A Song for All Readers’. Rhyming the oration of the sacred librarian line by line is reminiscent of common practices in protest movements and keeps on demanding #FreeEducationForAll and an open access to knowledge for future readers.
+
+----
+
+Cover: astrid-seme-studio-joburg-a-book-for-all-readers.jpg
+
+----
+
+Sound: astrid-seme-a-book-for-all-readers.mp3
+
+----
+
+Color: #c73b71
+
+----
+
+Covertheme: 0
+
+----
+
+Meta: 
+
+(link: http://astridseme.com/download.php text: FREE DOWNLOAD)
+in collaboration with Sizwe Mthethwa and Thapelo Kotlai, Johannesburg
+
+abfar was created during a stay in Joburg where culminating student protests over the rising costs for education also resulted on the bride side in the set up of a free online university being provided by the major libraries.
+
+----
+
+Covervideoposter: 

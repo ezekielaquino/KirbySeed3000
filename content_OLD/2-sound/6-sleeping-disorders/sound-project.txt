@@ -1,0 +1,34 @@
+Title: 88 Sleeping Disorders
+
+----
+
+Intro: 88 Sleeping Disorders
+
+----
+
+Builder: 
+
+----
+
+Text: 
+
+- 
+  page: fdrfgdgdgdg
+  size: "0"
+  _fieldset: pages
+
+----
+
+Cover: 88-sleeping-disorders-sound-astrid-seme.jpg
+
+----
+
+Sound: 88-sleeping-disorders-astrid-seme.mp3
+
+----
+
+Color: #8a4113
+
+----
+
+Covertheme: 0

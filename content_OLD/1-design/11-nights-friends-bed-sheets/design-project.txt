@@ -1,0 +1,50 @@
+Title: nights+friends webshop
+
+----
+
+Cover: nf-moon.mp4
+
+----
+
+Intro: Provoking a sexy revolution nights+friends brings art out of the galleries into your bed.
+
+----
+
+Builder: 
+
+- 
+  image: packaging.jpg
+  _fieldset: image
+- 
+  image: n-f-webshop-design-astrid-seme3.png
+  caption: design webshop
+  _fieldset: image
+- 
+  image: climax-famous.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    climax-nightsandfriends-design-astrid-seme.jpg
+  caption: “climax” bed sheets
+  _fieldset: image
+- 
+  image: >
+    climax-pillows-nightsandfriends-design-astrid-seme.jpg
+  caption: “climax” bed sheets
+  _fieldset: image
+
+----
+
+Text: n+f is a Vienna-based, artist-run company producing bedsheets designed by artists and designers in limited editions of 100. Literally, it offers the possibility to encounter art in a very intimate way. The design of the webshop plays with iconic elements of the night: The user is welcomed by a “performing” moon who is dancing in front of the stars. The stars build a constant background, while the various subpages are characterised by changing, sometimes absurd, color combinations, that can be associated with the different phases of the night.
+
+----
+
+Meta: 
+
+(link: http://www.nightsandfriends.com text: nightsandfriends.com)
+bed sheets: 200 × 200 cm incl. 2 pillowcases
+
+----
+
+Covertheme: 0

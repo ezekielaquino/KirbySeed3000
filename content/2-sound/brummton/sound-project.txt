@@ -1,0 +1,83 @@
+Title: Brummton
+
+----
+
+Intro: der Brummton
+
+----
+
+Builder: 
+
+----
+
+Text: 
+
+- 
+  page: |
+    Der Brummton
+    
+    Wie ein Infraschall geht er durch Luft und Boden und kann sich über weite Strecken fortpflanzen.
+  size: "0"
+  _fieldset: pages
+- 
+  page: 'Er pulst jeweils für eine kurze Zeit regelmäßig in einer Geschwindigkeit, die einem schnellen Herzschlag entspricht. Dann pulst er plötzlich diskontinuierlich, fällt fast ins Unhörbare zurück, um später wiederzukehren und gewissermaßen neu mit seinem rhythmischen Pulsieren zu beginnen. Dabei wird er schneller und langsamer. Der Puls setzt auch kurz ganz aus, dann kommt er wieder: er hört sozusagen auf, um verwandelt neu anzusetzen.'
+  size: "0"
+  _fieldset: pages
+- 
+  page: >
+    Noch immer ist es ein
+    durchgängig-linear summender Bass-Ton,
+    der dann wieder in ein Pulsieren
+    übergeht. Es ist, als ob er auf einer
+    Membran oder einer Trommel steht. Immer
+    wieder erfolgen ohne Gesetzmäßigkeit
+    Phasenüberlagerungen und
+    Phasenverschiebungen. Dabei setzt stets
+    etwas Beschleunigendes,
+    Disrhythmisierendes ein, das stark
+    disharmonisierend wirkt, da es den
+    einmal eingeschlagenen Rhythmus ständig
+    wieder verwischt und verundeutlicht.
+  size: "0"
+  _fieldset: pages
+- 
+  page: >
+    Die Abstände zwischen den Pulsen
+    verändern sich ständig, und zwar ohne
+    dass das vorher in irgendeiner Weise
+    absehbar wäre, oder ein
+    zugrundeliegendes Maß erkennbar würde.
+  size: "0"
+  _fieldset: pages
+- 
+  page: >
+    In seiner durchdringenden, inneren
+    Wirkung ist er wie ein eigener
+    Herzschlag. Das Geräusch versucht sich
+    deshalb ständig zu harmonisieren.
+  size: "0"
+  _fieldset: pages
+- 
+  page: >
+    Meist kommt er nachts, wenn alles ruhig
+    ist. Ein dröhnendes Brummen, ein tiefes
+    Summen, ein unaufhörliches Vibrieren.
+    Es ist so als würde eine Turbine
+    anlaufen und bis die Höchstposition
+    erreicht ist, schwingt der Ton hin und
+    her. Je mehr man lauscht, desto stärker
+    hört man es.
+  size: "0"
+  _fieldset: pages
+
+----
+
+Cover: brummton-sound-astrid-seme.jpg
+
+----
+
+Sound: brummton-astrid-seme.mp3
+
+----
+
+Color: #ffef88

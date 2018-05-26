@@ -1,0 +1,39 @@
+Title: Une Bruxelloise blonde gagne un poisson, Een Brusselse blonde wint een vis,
+
+----
+
+Cover: chareroi-door-intercom-sound-astrid-seme.jpg
+
+----
+
+Covertheme: 0
+
+----
+
+Intro: Une Bruxelloise blonde gagne un poisson, Een Brusselse blonde wint een vis,
+
+----
+
+Sound: jokes_excerpt.mp3
+
+----
+
+Color: #bd3737
+
+----
+
+Builder: 
+
+- 
+  image: >
+    chareroi-door-intercom-sound-astrid-seme.jpg
+  caption: 'installation view: Hotel Charleroi, BE'
+  _fieldset: image
+
+----
+
+Text: Charleroi has not the best reputation in Belgium which results in jokes about the city and its inhabitants. While strolling across the old city of Charleroi the passers-by are randomly delighted or teased by a narrator sitting in his apartment telling jokes through the door telephone which is used as a simple acoustic transmitter between the private and the public space. Actually it’s the same joke again and again but each time the subject changes. Once it’s Charles from Charleroi, then it’s Bruno from Bruxelles or Leon from Liège or from somewhere else who is kicked in the testicles. To hear a punch line twice is not quite funny anymore – a joke that varies constantly re-opens the theme for possible interpretations.
+
+----
+
+Meta: mono sound installation, 28h, speaker: Andre Lierneux-Garny

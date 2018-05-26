@@ -1,0 +1,64 @@
+Title: freq_out visual identity
+
+----
+
+Cover: freq-out-wien-signage-design-astrid-seme.jpg
+
+----
+
+Intro: A flexible identity built around a variety of forms.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    freq-out-wien-zeitung-design-astrid-seme.jpg
+  _fieldset: image
+  caption: program newspaper
+- 
+  image: >
+    freq-out-wien-zeitung-detail2-design-astrid-seme.jpg
+  _fieldset: image
+  caption: program newspaper
+- 
+  image: >
+    freq-out-wien-zeitung-5-design-astrid-seme.jpg
+  _fieldset: image
+  caption: program newspaper
+- 
+  image: >
+    freq-out-wien-zeitung-detail-design-astrid-seme.jpg
+  _fieldset: image
+  caption: program newspaper
+- 
+  image: >
+    freq-out-wien-banner-design-astrid-seme.jpg
+  _fieldset: image
+  caption: freq_out
+- 
+  image: >
+    freq-out-wien-tote-bag-design-astrid-seme.jpg
+  _fieldset: image
+  caption: freq_out tote bag
+
+----
+
+Text: As part of an ongoing collaboration with TONSPUR Kunstverein Wien I was responsible for the graphic identity of freq_out 12, a curatorial project by the Swedish composer Carl Michael von Hausswolff. freq_out is a sound installation of 12 individual sound works each utilising a specific frequency range, made on site, and amplified to act as a single, generative sound-space. Located in Vienna’s sewer, the identity is built around different forms and shapes deriving from physics and acoustics as well as it references the architectural conditions on site (floodgates, manhole covers, drainage ditches etc). The scope of works covered design of all printed matter.
+
+----
+
+Meta: icw Georg Weckwerth Tonspur Kunstverein Wien, Thyssen-Bornemisza Art Contemporary, Q21 (MuseumsQuartier Wien)
+
+----
+
+Covertheme: 0
+
+----
+
+Covervideoposter: 
+
+----
+
+Covervideobgcolor: 

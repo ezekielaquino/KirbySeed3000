@@ -40,7 +40,20 @@
   },
   "dependencies": {
     "fullpage.js": "^2.9.5",
+    "gsap": "^1.20.4",
+    "gulp-file-rev": "^1.4.2",
+    "gulp-inline-source": "^3.1.0",
+    "hammerjs": "^2.0.8",
+    "history": "^4.7.2",
+    "imagesloaded": "^4.1.4",
     "intersection-observer": "^0.5.0",
+    "lazysizes": "^4.0.2",
+    "lozad": "^1.3.0",
+    "mitt": "^1.1.3",
+    "mouse-wheel": "^1.2.0",
+    "object-fit-images": "^3.2.3",
+    "picturefill": "^3.0.2",
+    "preload-js": "^0.6.3",
     "zenscroll": "^4.0.0"
   }
 }

@@ -1,0 +1,49 @@
+Title: In the Library, poster series
+
+----
+
+Cover: in-the-library-bergen-johanna-lettmayer-design-astrid-seme.jpg
+
+----
+
+Covertheme: 0
+
+----
+
+Intro: Posters for one night only events held in a library.
+
+----
+
+Builder: 
+
+- 
+  image: >
+    in-the-library-bergen-johansen-johanna-lettmayer-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    in-the-library-bergen-franzen-johanna-lettmayer-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    in-the-library-bergen-gartmayer-johanna-lettmayer-design-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: In the Library is a monthly series of public one-evening events in the Fine Art and Design Library of Bergen University. It serves as a platform that encourages a discourse specifically on the topic of library / archive / book as well as on the conventions of the presentation, reception and discussion of art.
+
+----
+
+Meta: Organised by (link: http://johannabaletlettmayer.com text: Johanna Lettmayer target: _blank)
+
+----
+
+Covervideoposter: 
+
+----
+
+Covervideobgcolor: 

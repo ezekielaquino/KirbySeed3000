@@ -1,0 +1,102 @@
+Title: Doris Lasch, Without Having to Fall Into Linear Time
+
+----
+
+Cover: doris-lasch-image-design-astrid-seme.jpg
+
+----
+
+Covertheme: 0
+
+----
+
+Intro: “… the publication, which, being another printing, lies like a filter between things.”
+
+----
+
+Builder: 
+
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-1.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-2.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-3.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-4.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-5.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-6.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-7.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-8.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-9.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-design-astrid-seme-without-having-to-fall-into-linear-time-10.jpg
+  caption: >
+    Doris Lasch, Without having to fall into
+    linear time
+  _fieldset: image
+
+----
+
+Text: A rough, grey cardboard encloses this publication by Swiss artist Doris Lasch, whose praxis is mainly dealing with photography and its representation. Like a projection surface the cover depicts two, parallel moving film clips. The book title can be seen as being part of this projection, like a film that is just starting. By this, it incorporates an essential element of the artists’ works which is the question of ‘staging’ and ‘scenography’: Are the spaces which are shown in her photographies artificially staged for the camera or do they just show a very existing, natural moment. The publication follows this filmic atmosphere and uses the sequence of the pages to emphasise and to play with this specific relation in Lasch’s work.
+
+----
+
+Meta: 
+
+18.5 × 28 cm, 64 pp
+Ines Goldbach (ed.), Kunsthaus Baselland
+Texts: Dominiek Hoens, Ines Goldbach
+Publisher: (link: http://www.markpezinger.de/lasch.html#1 text: Mark Pezinger Verlag)
+ISBN: 978-3-9524774-0-3

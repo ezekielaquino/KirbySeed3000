@@ -1,0 +1,49 @@
+Title: Mikko Kuorinki: The Order of Things
+
+----
+
+Cover: c0195_1.mp4.mp4
+
+----
+
+Intro: Reading and seeing Michel Foucault in an entire new way!
+
+----
+
+Builder: 
+
+- 
+  image: >
+    kuorinki-order-of-things-buch-cover-design-astrid-seme.jpg
+  _fieldset: image
+  caption: 'Mikko Kuorinki: The Order of Things'
+- 
+  image: >
+    kuorinki-order-of-things-buch-text-design-astrid-seme.jpg
+  _fieldset: image
+  caption: 'Mikko Kuorinki: The Order of Things'
+
+----
+
+Text: 
+
+The desire to classify the world has always been a need for mankind&#58; We collect, reflect and sort the things. Michel Foucault extensively wrote about this phenomena in his book The Order of Things: An Archaeology of the Human Sciences, one of the core works that anchor the French Structuralist school of thought.
+
+The Finnish artist Mikko Kuorinki interpreted Foucault’s title literally and put all words of the book in alphabetical order: From “A” to “Zoophytorum”. In the tradition of conceptional art, Kuorinki reordered knowledge that is already available. He decomposed a text to an alphabetical material – and composed at the same time a new text, which offers us a very unusual view into the thinking of the French philosopher.
+
+----
+
+Meta: 
+
+Perfect-bound, 11 × 18 cm, 432 pp
+Publisher: (link: http://www.markpezinger.de/kuorinki.html#1 text: Mark Pezinger Verlag)
+Images: Martin Wunderer
+
+
+Reviews: 
+(link: http://www.mistermotley.nl/paper-podium/order-things text: www.mistermotley.nl) (Dutch)
+(link: https://libreas.wordpress.com/2012/04/19/mikko_kuorinki_foucault/ text: www.libreas.wordpress.com) (German)
+
+----
+
+Covertheme: 0

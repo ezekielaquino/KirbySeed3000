@@ -1,0 +1,65 @@
+Title: Teaching NDU; Graphic Design – Sound
+
+----
+
+Cover: ndu-lehre-1-urknall-astrid-seme.jpg
+
+----
+
+Covertheme: 0
+
+----
+
+Intro: Engaging with students in the visualisation of the big bang and its acoustics.
+
+----
+
+Builder: 
+
+- 
+  image: ndu-lehre-2-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: ndu-lehre-3-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: ndu-lehre-4-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: ndu-lehre-5-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: ndu-lehre-6-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: ndu-lehre-7-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: ndu-lehre-8-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: ndu-lehre-9-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: ndu-lehre-10-urknall-astrid-seme.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: I was invited to be a guest lecturer at New Design University in St. Pölten, AT. I dedicated the time with the students to engage with the visualisation of acoustics and different forms of transcription but all linked to one sound: The Big Bang is a sound of which we all are aware of but nobody knows how it actually sounds like or rather where the Big Bang has happened. During 4 months we tried to look back and demonstrate the genesis of the world in St. Pölten by transferring this very event in notations and creating a narration of both past and future. The book’s outcome is on the one hand a visual sound portrait of the city’s big bang and on the other hand a collection of notations which can be re-performed.
+
+----
+
+Meta: 
+
+GRAPHIC DESIGN – SOUND: written notations and echoing words (theory, assignments)
+New Design University (students from BA Graphic Design + Information Design)

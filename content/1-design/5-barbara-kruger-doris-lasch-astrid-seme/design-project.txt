@@ -1,0 +1,86 @@
+Title: Doris Lasch, Astrid Seme feat. Barbara Kruger
+
+----
+
+Cover: barbara-kruger-installation-kunsthalle-basel.jpg
+
+----
+
+Intro: Doris Lasch, Astrid Seme feat. Barbara Kruger
+
+----
+
+Builder: 
+
+- 
+  image: barbara-kruger-1994-kunsthalle-basel.jpg
+  caption: Barbara Kruger, Kunsthalle Basel, 1994
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-astrid-seme-installation-view-kunsthalle-basel.jpg
+  _fieldset: image
+  caption: installation view, Kunsthalle Basel
+- 
+  image: >
+    doris-lasch-astrid-seme-cover-barbara-kruger.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-astrid-seme-2-barbara-kruger.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-astrid-seme-3-barbara-kruger.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-astrid-seme-7-barbara-kruger.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-astrid-seme-4-barbara-kruger.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-astrid-seme-9-barbara-kruger.jpg
+  caption: ""
+  _fieldset: image
+- 
+  image: >
+    doris-lasch-astrid-seme-11-barbara-kruger.jpg
+  caption: ""
+  _fieldset: image
+
+----
+
+Text: 
+
+In 1994 the American artist Barbara Kruger exhibited a German version of one of her large scale political wall-texts at Kunsthalle Basel. For our contribution to the exhibition “Exposed Exhibitions” at Kunsthalle Basel in 2017,  Doris Lasch and I worked with the only installation shot of Krugers work, found in the archive of the Kunsthalle. We re-scaled the photography into the orginal size of Kruger’s text piece and re-organised it through the entire pages of a publication. As an additional level, the backside of Kruger’s work on each page is blacked out. Whereas the architectural information that is visible on the installation shot reveals photographies of the very same work exhibited at Art Basel in 2017. While the first exhibition was obviously very rarely documented, Krugers work at Art Basel 2017 became one of the favourite spots for selfie-makers and Instagramers. By this, the publication connects two moments in time and brings together different ways of exhibiting, receiving and documenting an art work. 
+For the exhibition “Exposed Exhibitions” we re-exhibited Kruger’s work in the form of these offset sheets arranged for the orientation and layout of the publication.
+
+----
+
+Meta: 
+
+The imaginary museum: Astrid Seme & Doris Lasch (eds.) featuring «Untitled» 1994/2017, a work by Barbara Kruger
+Perfect-bound, 24 × 33.5 cm, 128 pp
+Publisher: (link: http://www.markpezinger.de/lasch.html#2 text: Mark Pezinger Verlag target: _blank)
+ISBN: 978-3-9504525-0-1
+
+----
+
+Covertheme: 1
+
+----
+
+Covervideoposter: 
+
+----
+
+Covervideobgcolor: 
